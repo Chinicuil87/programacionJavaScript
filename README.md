@@ -7,7 +7,7 @@
     alt="Our logo">
 </img>
 
-# [Curso profesional de JavaScript](CodigoFacilito)
+# Curso profesional de JavaScript
 
 ## Datos
 
@@ -23,3 +23,11 @@ Uriel Hernández
 > Certificado:
 
 [Certificado - Curso profesional de JavaScript](<Certificado - Curso profesional de JavaScript.pdf>)
+
+# Proyectos.
+
+## [1. Hola mundo.](holaMundo)
+
+## [2. Saludo Personalizado.](saludoPersonalizado)
+
+## [3. Calculadora.](calculadora)
