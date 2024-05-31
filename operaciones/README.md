@@ -1,4 +1,4 @@
-# Calculadora.
+# Operaciones
 
 ## Lenguaje.
 
@@ -16,6 +16,6 @@
 
 ## Resultados:
 
-Muestra en HTML.
+Muestra en HTML los resultados de las operaciones.
 
 ![alt text](img/image.png)
