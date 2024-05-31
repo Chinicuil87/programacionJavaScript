@@ -1,0 +1,2372 @@
+[
+  {
+    "sha": "28aec3a90d2798382c7da384fece6227e12092f8",
+    "node_id": "C_kwDNS-7aACgyOGFlYzNhOTBkMjc5ODM4MmM3ZGEzODRmZWNlNjIyN2UxMjA5MmY4",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-24T06:56:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-24T06:56:43Z"
+      },
+      "message": "Add midpoint example (#5896)",
+      "tree": {
+        "sha": "0f2cee751d937389670f2381c1611eff030f8aaa",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/0f2cee751d937389670f2381c1611eff030f8aaa"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/28aec3a90d2798382c7da384fece6227e12092f8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmUDorCRC1aQ7uu5UhlAAAF54QAAH8oYC91H78cZlasXr8ni/b\nJ2coaL+6FZssjYHSUo6+WgSU+/NCuNPIotqoSrNiASfOEuE2cNtpd2fDT7cJ/fXk\nMkJR8j3ex1CUpeln15h+b0UFFWEwnJaNaVm3dNVu6zr5WyE1AXCY4OdvT46QN2yl\n++F9KFEG+LhKmpGOHLGcn4xpBK2bErtcumJn/xm8t3m0KsygJC0ECBxQTGGV4cTo\nmFVYGK+7G55IN3pfXVSPSEx5waTm6qQvFEFXb4q8zHqahKQAxYqLJseL7lfYAW3W\n6ujOunERs+VG7Z+nJ2KoVgHP4K2I2ZfIz/kF840wFCOTlxW+HN1Fe+V2HPfJk07V\nVJNBb35kOt8fHZCUrZdN+vUiFvGw0XmHR3sl7TvxJz2EQ76KEqTbT7hzG8fi4E/d\n3AAFcK6oF7In1Yf16vBfSvjaMvv1P79b0lQi44aXAAFfwp0rX1Ot7Y5IdP4U30UE\n8+aBlfFpZn5hRXyKHGE0wTXeO3ZRp5YsC2oqPvcuP7boQrg5l+ctutqeQZPpsD1y\nFZ6Ls0V9dks/+hIi54FaxRpnPoN4QGPRnUmMr1KyXBx5wCqwdRAajHjozbSUVoqX\npusvDUm9sYoIWSssD/g44VTBnAqaR8VRHvFixL7RtHFy7TF/G9r39c9bHe+HZuYY\n0LlcPAUTH0Pu3/3lxgGO\n=II5n\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 0f2cee751d937389670f2381c1611eff030f8aaa\nparent e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716533803 +0200\ncommitter GitHub <noreply@github.com> 1716533803 +0200\n\nAdd midpoint example (#5896)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/28aec3a90d2798382c7da384fece6227e12092f8",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/28aec3a90d2798382c7da384fece6227e12092f8",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/28aec3a90d2798382c7da384fece6227e12092f8/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f"
+      }
+    ]
+  },
+  {
+    "sha": "e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f",
+    "node_id": "C_kwDNS-7aAChlM2E0ZGFmYTUwYzY3ZDljZTVkNzU2N2I5MmNiODE5MmY1YTZjODFm",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-24T06:55:53Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-24T06:55:53Z"
+      },
+      "message": "Rename `ggpar()` to `gg_par()` (#5899)\n\n* rename `ggpar()` to `gparam()`\r\n\r\n* rename to `gg_par()`",
+      "tree": {
+        "sha": "1354febca4dd9ccf09d963645620a73e04d1aa87",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/1354febca4dd9ccf09d963645620a73e04d1aa87"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmUDn5CRC1aQ7uu5UhlAAAdzsQAFNzEC38KzUZ5QOIu4vAQ/F8\nsapH1wxNB4d4sMTnuNsrxTkpR3m78RRivqe1wTRttf/6zDPAzl6pn2ptuT6SAWgv\nH8wPYaVMGzzjttwMXYtCcPFA3LbZqw5DGPlir3kdnRgU6LWR+BcR7d6I5dKwjru6\no2hxEx6bSNLnaLz704jW3/Q4KgtqXu1kqWDXDOl1VQQzxavNqQPDlZOmW96G96Ej\nmF9bjF0nYObrARi9GawEcdalv8GtGXx8aK/cedM/TP1GLewZYqQpEsEDY30vDDgL\nqZjAG5h+BYNgvlHIct0KO3gs607t0Ah5guSpECXrS+CVRY1S3u0yughIc1GkZKhi\n7X+z+Vjt0cgkYn+mm+xTqXqkvfTwe3MIyEYaxzkvLlqWlRq7xOWH/p+1H1FHQSJO\ns6oSeJ/vxlgtk4TMEWkF60numhCkR9IKTuhu2SBn7jatQw6Xit0A0CZorz4AiAAg\nemJrrEsx3FMc5zVZp2sVgUFxUoTQaRBgAq3NrKWWvDl87AC4DUHS7KN/05CUUbWl\n/aT3/cnkwigCfU4qXrebzg1awLTOgdCBZP6L/AHGiWiOSat9uE+vy5wvz99JfbYl\nVTSeogvC0d7GESEH3xsEpvUlcmddUvkKLcggKO5Mi/t7boa5Tt2yA/ZN7COmJnc4\nlWD67lR3nl+YuGYHa4OJ\n=2Awi\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1354febca4dd9ccf09d963645620a73e04d1aa87\nparent 0d0dc62c03c7e431082ee664a02f139572c65cb3\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716533753 +0200\ncommitter GitHub <noreply@github.com> 1716533753 +0200\n\nRename `ggpar()` to `gg_par()` (#5899)\n\n* rename `ggpar()` to `gparam()`\r\n\r\n* rename to `gg_par()`"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e3a4dafa50c67d9ce5d7567b92cb8192f5a6c81f/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0d0dc62c03c7e431082ee664a02f139572c65cb3",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/0d0dc62c03c7e431082ee664a02f139572c65cb3",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/0d0dc62c03c7e431082ee664a02f139572c65cb3"
+      }
+    ]
+  },
+  {
+    "sha": "0d0dc62c03c7e431082ee664a02f139572c65cb3",
+    "node_id": "C_kwDNS-7aACgwZDBkYzYyYzAzYzdlNDMxMDgyZWU2NjRhMDJmMTM5NTcyYzY1Y2Iz",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-22T17:23:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-22T17:23:46Z"
+      },
+      "message": "`after_*()` length checks (#5902)\n\n* throw warnings\r\n\r\n* simplify `try_fetch()` block in legend\r\n\r\n* add tests\r\n\r\n* add news bullet\r\n\r\n* nicer pluralisation",
+      "tree": {
+        "sha": "e5dadc37391bd6298b00ebcb9e49fcdbbc2af429",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/e5dadc37391bd6298b00ebcb9e49fcdbbc2af429"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/0d0dc62c03c7e431082ee664a02f139572c65cb3",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmTioiCRC1aQ7uu5UhlAAAms8QAFRatEEhWoU5OrvROrmmyfdO\nikYidAHLoygQokJYQKd84l3WyaXKsSQLPf0+CUOOWzcPtoYEsyOQNNx12XMptm+a\nIAjhoXrZpcSbhcaXgtnjlfnm9wV+JoNs4x+1hhGFagiX56OQ9GHO57+4tfI6FMT+\nlwk5S2O8dVKMMQA5FOhdqVYNnxF+HLqsN2/BvOV9ndv/fKqi76TM51XFPop+7yfS\nWLeotMggwKcxu86ha3GBz86ctlq/S4Kaeuo+LO2Ov4ASrtKbKa8F9anhraqmCWl+\nVZKssITApF9tidJvJd5A2tzUeMWWJOnUk69BatXAbpl0n2KPSy4ND+9Ir+axmGRQ\nWOCLYbhE1VJwAVrnCtHy0KUT+sr4/0ZxBNsaMElPCzaTC0qmALCvEs/Lz6nziX+d\n0hrL2HC19UHenJ0jwtsjEpUiExnnJgstbZwZq2FRgokk23WT/UrQpZ0cxcLXz9vh\ndeQF8DFGZt7MUIYV5Np8IfytV6EwuZOsjVdcUvH0ayQqSis4B1244P0TfLHJBQrE\n0VRwe/WEGyboUU5ePfQlxRw+IgcMkUWmW3LQ9CbOhqM4kxvYRr8lvR4wtmJodjIt\nHU6GGPsAaxYKQTFQpp2cyGrsVf9J2WmJhFgWp1AVF6TUF7pI/M0j2H/tjTCiv3dH\nwRL95HQdrHiBNqTLcOBK\n=supx\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e5dadc37391bd6298b00ebcb9e49fcdbbc2af429\nparent 5199cee62f90c2484b0d34888910663d3eac8d5d\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716398626 +0200\ncommitter GitHub <noreply@github.com> 1716398626 +0200\n\n`after_*()` length checks (#5902)\n\n* throw warnings\r\n\r\n* simplify `try_fetch()` block in legend\r\n\r\n* add tests\r\n\r\n* add news bullet\r\n\r\n* nicer pluralisation"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/0d0dc62c03c7e431082ee664a02f139572c65cb3",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/0d0dc62c03c7e431082ee664a02f139572c65cb3",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/0d0dc62c03c7e431082ee664a02f139572c65cb3/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5199cee62f90c2484b0d34888910663d3eac8d5d",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/5199cee62f90c2484b0d34888910663d3eac8d5d",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/5199cee62f90c2484b0d34888910663d3eac8d5d"
+      }
+    ]
+  },
+  {
+    "sha": "5199cee62f90c2484b0d34888910663d3eac8d5d",
+    "node_id": "C_kwDNS-7aACg1MTk5Y2VlNjJmOTBjMjQ4NGIwZDM0ODg4OTEwNjYzZDNlYWM4ZDVk",
+    "commit": {
+      "author": {
+        "name": "Johannes Johow",
+        "email": "j@johow.it",
+        "date": "2024-05-21T11:54:46Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-21T11:54:46Z"
+      },
+      "message": "Update guide-legend.R (#5806)\n\n* Update guide-legend.R\r\n\r\ntypo\r\n\r\n* document\r\n\r\n---------\r\n\r\nCo-authored-by: Teun van den Brand <tahvdbrand@gmail.com>",
+      "tree": {
+        "sha": "7bbca6dac97fd43b1080ab04791e94498aa4794e",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/7bbca6dac97fd43b1080ab04791e94498aa4794e"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/5199cee62f90c2484b0d34888910663d3eac8d5d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmTIuGCRC1aQ7uu5UhlAAADGsQABZnAGHNsGR1WbOEbwGuBa0r\nxS4dJN6fxMkA/QTF+YzmR9vgUW1Vlw82VnnKv5KrTdNFppkvaJmCTltwh/pmlRdr\nVmR6b4QOKJmjEQVG2S7r6qD8Dwt/1YkHe/vV+enKUu0ieLgpDiKB4C1kgrqhFppE\nGd5/eKVaDNx0Kdlcu9xBcUnTrHJnFVgaWSzOkgEwbHa+33aUkemBJG6owrTQDn28\n+rFCVhCGY6QKqwmDdNucL862O22UiijoFHjjKy+YqQopkzA0o6FcYvUK6iiUxKsi\nF1CstfBKLdquy/3Ru8CgkvIbmVOmCc40PMUCc16hhdl/In3FmT7ysEGQFSKZzHJN\nPTtLbBYoeRYMR1lk0Pv2GRH3R8MOZu750qKvFvQ2tCbPZKHSiDxQVcAASPJLcPQI\ns4QgnFDEplHRe+NwNSGedXysFe8oZk5jqdWmqHWTmXamIzwvbl0YGxCtZ4ZEvgwq\nppk2Joj5mpOdJdV31QnDND8Vy4geR/esy22zc6Nmuc/2vgE5vofjgpwgHCh4XNe/\nqqi1973HOsRcBwCulDZo0Y2YCSiuTr6GtwVi3gmwrS0Uj3VDjYv85uW9olnH8QEj\nTbaw/gVo2kSOB2HZRZqt3/PcHMSBmCxrLGqgiw845d9WvehfdLJRiCLVFs1JdOhA\nk6HT11A8a4PFY9X/xNoH\n=q8vU\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7bbca6dac97fd43b1080ab04791e94498aa4794e\nparent 341e8fce31a15d574739cfd5f686f01600f353b0\nauthor Johannes Johow <j@johow.it> 1716292486 +0200\ncommitter GitHub <noreply@github.com> 1716292486 +0200\n\nUpdate guide-legend.R (#5806)\n\n* Update guide-legend.R\r\n\r\ntypo\r\n\r\n* document\r\n\r\n---------\r\n\r\nCo-authored-by: Teun van den Brand <tahvdbrand@gmail.com>"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/5199cee62f90c2484b0d34888910663d3eac8d5d",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/5199cee62f90c2484b0d34888910663d3eac8d5d",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/5199cee62f90c2484b0d34888910663d3eac8d5d/comments",
+    "author": {
+      "login": "johow",
+      "id": 6506197,
+      "node_id": "MDQ6VXNlcjY1MDYxOTc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6506197?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johow",
+      "html_url": "https://github.com/johow",
+      "followers_url": "https://api.github.com/users/johow/followers",
+      "following_url": "https://api.github.com/users/johow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johow/subscriptions",
+      "organizations_url": "https://api.github.com/users/johow/orgs",
+      "repos_url": "https://api.github.com/users/johow/repos",
+      "events_url": "https://api.github.com/users/johow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "341e8fce31a15d574739cfd5f686f01600f353b0",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/341e8fce31a15d574739cfd5f686f01600f353b0",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/341e8fce31a15d574739cfd5f686f01600f353b0"
+      }
+    ]
+  },
+  {
+    "sha": "341e8fce31a15d574739cfd5f686f01600f353b0",
+    "node_id": "C_kwDNS-7aACgzNDFlOGZjZTMxYTE1ZDU3NDczOWNmZDVmNjg2ZjAxNjAwZjM1M2Iw",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-21T11:54:04Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-21T11:54:04Z"
+      },
+      "message": "Additional `arrow.fill` parameters for line-based functions. (#5768)\n\n* add `arrow.fill` to `element_line()`\r\n\r\n* add `arrow.fill` to other line geoms\r\n\r\n* propagate `arrow.fill` in `geom_sf()`\r\n\r\n* Add news bullet\r\n\r\n* include `geom_step()`",
+      "tree": {
+        "sha": "e4ce4917b4c4081e66f13fa81631a338f038ea3c",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/e4ce4917b4c4081e66f13fa81631a338f038ea3c"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/341e8fce31a15d574739cfd5f686f01600f353b0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmTItcCRC1aQ7uu5UhlAAA7uQQACs5pnKeh4XwHLfTz2cc5Lf3\nHuVdm8+5myVqGaCwUCCL/Zx1vjIbBV5c/bMXK2jksMxhuL/zhkjjk+UWhCpdJ4Ds\n3ngZDz0pWtjgfrpqnhmuBbBBdP3QiikylbzxuZ8yIDpWq3om2uTd2zToxVUFNhBE\nzvHqjPXQ088x7QDELREASzzshdfw1o+pykIPgKmLRdGv8desl88btMH6HmRY3CJ3\nLSK7ux3NzE8sfdtL/LpSbF2esy/t2hIMH7iWbqiM40qLrMBiXOQpumixdt/7UFtG\nppHAVgS9diG0LX1JwmMRuvDkiFuhJ0MHUbb/4am06obxkoogRF+nsB2A4GZiOGiu\nLw2LDAR/hg+cLgDDYgazlp8rl6IvYAOIdS/i8x7GQXqLvnA0hTqoJTbgaJ9sMh0r\nw8Tlud1xm619Tenws/CjdcFEFwAE8wcrAMC7XCOXcY/uXUulM++rU9Kb2zPzTm03\nBAL180XfRkmNs5AjKAz3bd+kpLpDxgYVMqOEXoQPHBDgcTC+e9GOmjARcYMIUaV0\nc47dSJ8OzFlc9/ThtIcatkBZmc2xoZkDtAWQSdhVM48x3od/a3sQ6Xmc9hInZpRV\neOSKflRa+wrVqTugbG8If+PLCCZYROm9hVcXA/L55LqTQMBHf8QRxxeox0nXUtlt\nCQTpC1xCAc/GljsTxUXU\n=jUSy\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e4ce4917b4c4081e66f13fa81631a338f038ea3c\nparent c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716292444 +0200\ncommitter GitHub <noreply@github.com> 1716292444 +0200\n\nAdditional `arrow.fill` parameters for line-based functions. (#5768)\n\n* add `arrow.fill` to `element_line()`\r\n\r\n* add `arrow.fill` to other line geoms\r\n\r\n* propagate `arrow.fill` in `geom_sf()`\r\n\r\n* Add news bullet\r\n\r\n* include `geom_step()`"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/341e8fce31a15d574739cfd5f686f01600f353b0",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/341e8fce31a15d574739cfd5f686f01600f353b0",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/341e8fce31a15d574739cfd5f686f01600f353b0/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8"
+      }
+    ]
+  },
+  {
+    "sha": "c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8",
+    "node_id": "C_kwDNS-7aAChjOWEyZDZhMzA2ZjRkZDkwMjYzNDU3NjM5YjQxZmQ0YWU0YzRhNWE4",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T16:40:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T16:40:54Z"
+      },
+      "message": "Adhere more strictly to `bins` argument in `stat_bin()` (#5891)\n\n* try respecting `bins` better\r\n\r\n* fix #5890\r\n\r\n* add test\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "736c32b8ac6300460e31595d17d5ec7b0dc262c6",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/736c32b8ac6300460e31595d17d5ec7b0dc262c6"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS30WCRC1aQ7uu5UhlAAA7MUQADeUes7tVj3rPkSM503aEFpY\nt6mmOkXAw5ZTFTTcxRlCpxCGiy8dheNRZ7cep1j6Bvcg2NHCHurmeum7zKWFBpcS\nie659Vigmvr99hWmWOaxJAHcbezBv6YtcrbInylK7PAZ4bcHVFZ2KDd4If0PUWbM\nzyzE80gVCvaJSs0XN/zrqBYy1D39Blr1gUgssy6yyOs0+a0dGpy65fg18M24sb98\nJuNAYpuUcsGNmyq+nnPR/ZSX4/ZR9cwDl1NZH6HJhf5mOwhFxA2hTPv4cZq5j4VX\nRUiho3W1TQ3kyNu2cA9hr1DXVmwPh+aXIWa2kxoSjhVY9/+QO/vp0lhAFUAxC1mf\n52+t8VzlO3Ucw+skz/74zcAy3SK7x70KhR+9VDtSibcXHc+maQ/w0XfWPtWVIlea\nqfedgj1Wqmr5R80dHuGNFkCsfFjf5iV/Lquq6xliLTLczX8uqyNEBh4lfZWb1qom\nqb6Igf0G/EpzLjOtT7U5rW56gD+gFpW6WQKOOlUI7E8/NGtLwImjxAf0KXqf10ks\neeCyso9OchFAeEd9rBhDXv4s6NTF3VTG8kIznSg/Lq9MtIJrvvASVMLPkL3XefmO\nd0spXa7iB79D9/4CuJb2S95CqKIQELa0XrSvhu+l9t8Sw5hMmrLYxRKNgMFbVnOB\nRb78ACbFIYGEMfHphBqh\n=uxfp\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 736c32b8ac6300460e31595d17d5ec7b0dc262c6\nparent 3b83eeaa11cac5dcb6f641cb384281118ce84a11\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716223254 +0200\ncommitter GitHub <noreply@github.com> 1716223254 +0200\n\nAdhere more strictly to `bins` argument in `stat_bin()` (#5891)\n\n* try respecting `bins` better\r\n\r\n* fix #5890\r\n\r\n* add test\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/c9a2d6a306f4dd90263457639b41fd4ae4c4a5a8/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3b83eeaa11cac5dcb6f641cb384281118ce84a11",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/3b83eeaa11cac5dcb6f641cb384281118ce84a11",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/3b83eeaa11cac5dcb6f641cb384281118ce84a11"
+      }
+    ]
+  },
+  {
+    "sha": "3b83eeaa11cac5dcb6f641cb384281118ce84a11",
+    "node_id": "C_kwDNS-7aACgzYjgzZWVhYTExY2FjNWRjYjZmNjQxY2IzODQyODExMThjZTg0YTEx",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T14:02:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T14:02:43Z"
+      },
+      "message": "Binned guides discard out-of-bound breaks (#5873)\n\n* oob breaks are discarded\r\n\r\n* add test\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "35053b810cdc144309ba7e29b56210b4d4276046",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/35053b810cdc144309ba7e29b56210b4d4276046"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/3b83eeaa11cac5dcb6f641cb384281118ce84a11",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS1gDCRC1aQ7uu5UhlAAAJw8QACzZnNEHTjDEdSAqfI1jKlMH\n1tFvZqw78ppxo1wtJz5bI7YDCsyG+WqeiozuQGXn993idanu6TmDXH9ZJ1JdOCTP\najBZLy9HJSRuqNMZqiQBUoJMlXk3SL+gKZjPSy1Y1hFnA2h8vreftbxKr+nkMEXh\n7d+MqUHZaseZ1qnFQPn5XjaDAsvOjkuUog6yuPWzUBGHDk+7SMtKWI6gwbbQTAeu\nP+XBgaznvXaE+uJKi8gnUjYk+MuupffA8DfFVQmNi76TWeDpcc/5+xqSeLp5B2k6\nEhY1CW/0WO36rlL0WWfcpJ0ZnRWCuAJuc59+Ezy8VQ1zoUY/c1iTg1834sanzCDm\nMVPMWaL7kcpWhzjQEZvuiwRAIpLrPL1rpGDAbK5DdZsZBazjk5MdgLu+YWZCGLYe\nx+kPheenfssw9H832p/u2afU24g/SvxeWyxvE0AM0KlomQ8U3JYG2ynU8w19qWvu\ni5gfuGaVgzGpzLwlWS45UhykN9ivpXh/9qHulZ9hPIuN6upqRV3EPE1svszMX94p\nyvsmYvp/U3FMLCCQVXgzBV8b+TBbRmBGyqYOmiYDlstAQ2bipRVo1tFbef0mERSd\nNuUEmee++AzEY/J9ugTKN1GCxveFNomQrJ9pA5zXoR04jnx0c8DvKvj+kcT3AsLp\nYswNndgHx+1AJgYaIntE\n=8gdv\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 35053b810cdc144309ba7e29b56210b4d4276046\nparent 49b45c11f97977e2f69202092f8dc2bbac051b75\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716213763 +0200\ncommitter GitHub <noreply@github.com> 1716213763 +0200\n\nBinned guides discard out-of-bound breaks (#5873)\n\n* oob breaks are discarded\r\n\r\n* add test\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/3b83eeaa11cac5dcb6f641cb384281118ce84a11",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/3b83eeaa11cac5dcb6f641cb384281118ce84a11",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/3b83eeaa11cac5dcb6f641cb384281118ce84a11/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "49b45c11f97977e2f69202092f8dc2bbac051b75",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/49b45c11f97977e2f69202092f8dc2bbac051b75",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/49b45c11f97977e2f69202092f8dc2bbac051b75"
+      }
+    ]
+  },
+  {
+    "sha": "49b45c11f97977e2f69202092f8dc2bbac051b75",
+    "node_id": "C_kwDNS-7aACg0OWI0NWMxMWY5Nzk3N2UyZjY5MjAyMDkyZjhkYzJiYmFjMDUxYjc1",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T13:53:18Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T13:53:18Z"
+      },
+      "message": "Apply jitter in `position_jitterdodge()` once (#5819)\n\n* Follow #4403\r\n\r\n* add test\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "cbcab317ae2439b8907b41867f904e8a501599f0",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/cbcab317ae2439b8907b41867f904e8a501599f0"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/49b45c11f97977e2f69202092f8dc2bbac051b75",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS1XOCRC1aQ7uu5UhlAAAR/wQAG24w7/urU2RIT1mbErP8Nfw\nPoIuqqi1sT3Ikbefh73aI4yVAPa2NejgW4vXoOT4QM2r0oSS9oLilyy/FeRR17zy\nBXd31mQFwcDV4IS9JCbKK+2tT8c6uOX/OHHsjzDD67ePIs+CrGuBIOKrxbNq6bq4\nGavx/vtxE+g0a+tG0iNBNH8juTx0irNRptgYD8HfQi+zgiqMX6kv22zmLrBXw4K/\np4+vWkfCC7bTqUjZ7q8AvI8AfMhxxPIX1WMHtc5YOIXpHEmLzyQsh6KvGWB5O8XM\nqR2S0XNWdQSRNEPcY0zFp3cXAmNJCbVodwpM0og3rz7BhdAD2QE0/NvkxglLZv1c\nkmhl7klUaswS03Dis9+qrjhRkhmEeEmxOjngWM6Crdyv3Ztarea5GmcCiiDPdXlx\nkku4dCcTGu7eN49bgSqThUNHXq/2ZrcWHCbw4sNi8+2kcA/p9/meOJ4KUbeUdCCU\nLPXozsGqbmEkSwkKPFRebD4ISX/kuTNX9LXdXK+pg1gOI5t8bHcjj8Ci7eEDrinV\nD84zDbjH1pG8d/ftQZ6nrr9MSozkcZutvsir2G9YuYW7Trz+E56r2sk4XA+B+GXr\n/b7IaBwvzkAVvBguKIJYaYuZAsWVhNAAmjkZF2QpF9MP7N55i9GgAyRZEv2zpX34\nh60BEe7ZBcVMVMrUZYHi\n=T8To\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree cbcab317ae2439b8907b41867f904e8a501599f0\nparent 6f6076604351ad93ffc2506722173094c75d99c6\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716213198 +0200\ncommitter GitHub <noreply@github.com> 1716213198 +0200\n\nApply jitter in `position_jitterdodge()` once (#5819)\n\n* Follow #4403\r\n\r\n* add test\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/49b45c11f97977e2f69202092f8dc2bbac051b75",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/49b45c11f97977e2f69202092f8dc2bbac051b75",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/49b45c11f97977e2f69202092f8dc2bbac051b75/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6f6076604351ad93ffc2506722173094c75d99c6",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6f6076604351ad93ffc2506722173094c75d99c6",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/6f6076604351ad93ffc2506722173094c75d99c6"
+      }
+    ]
+  },
+  {
+    "sha": "6f6076604351ad93ffc2506722173094c75d99c6",
+    "node_id": "C_kwDNS-7aACg2ZjYwNzY2MDQzNTFhZDkzZmZjMjUwNjcyMjE3MzA5NGM3NWQ5OWM2",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T13:46:27Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T13:46:27Z"
+      },
+      "message": "include center as option (#5871)",
+      "tree": {
+        "sha": "c4e5305e678d8d2ba426e67ae7bebcfb30958c38",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/c4e5305e678d8d2ba426e67ae7bebcfb30958c38"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/6f6076604351ad93ffc2506722173094c75d99c6",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS1QzCRC1aQ7uu5UhlAAAOt8QAAsdckRsu6Ezky8kGElS6mta\n6m0RH9Jxl+uEI2FYJbPk+Lft/gGnD/fV+r6YVH63yExv38QvtrY8ZyIwlTYi2A3f\nREvbmG/7nEUk975tRGT+BAPwP8EHzL8Brzj6R05QcDid5hDH8pomDls1hJaCoepT\nnXy9MgIwTi0Y7G2lFEv8Zgh7yBeyDdg9jGoo0v5z1LNtvw/FIYtuJSyu/tqj2wHr\nIhNJNQMU1Zlrdy1ScK9AwqalXrfG1F2I2OnN/SM4g+40KC1qlkyj1BK2/UlhP3CQ\nWTaoIf2PEJka877iPxzTGnaZMkzS5EZ5uPZOJMUyNSfXTmUU1snk+ImWBtjqA3af\nhCkeJiexnPATduCa92ZL1z3+YS6BHprrMFVJ9rHf1ERY3SZktTFlvsbLFqALMois\ncD6WP4giYzUOKtuCW7BhRG+Xwzw7JfaATx2e7W4HLtu9OLglS7l7SYI0DAlS1kcw\n22K556G2EPUN/NWzFEL+wUhDSqWSZDlFvK/2pZ2ddn7kJtSb5N8bAwgUrnpYDobe\n0ItX3q++RC0LYQ3mrOvbKzRahXS0Y46ck1phaRlUK2YkVmuDDyLhQ4uDHUO8XmRb\n0TQp22JzjBGL5f2i0t48bbjpdT2J3Z3TqN7xUjx84gGFyLvsIvUw7aQonO6TVk2f\nLv2AiLo7dZRn/q8Rm/EX\n=kinF\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree c4e5305e678d8d2ba426e67ae7bebcfb30958c38\nparent 89b829dfdb8a6db30c11de81432a76924235cc5b\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716212787 +0200\ncommitter GitHub <noreply@github.com> 1716212787 +0200\n\ninclude center as option (#5871)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6f6076604351ad93ffc2506722173094c75d99c6",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/6f6076604351ad93ffc2506722173094c75d99c6",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/6f6076604351ad93ffc2506722173094c75d99c6/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "89b829dfdb8a6db30c11de81432a76924235cc5b",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/89b829dfdb8a6db30c11de81432a76924235cc5b",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/89b829dfdb8a6db30c11de81432a76924235cc5b"
+      }
+    ]
+  },
+  {
+    "sha": "89b829dfdb8a6db30c11de81432a76924235cc5b",
+    "node_id": "C_kwDNS-7aACg4OWI4MjlkZmRiOGE2ZGIzMGMxMWRlODE0MzJhNzY5MjQyMzVjYzVi",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T13:40:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T13:40:44Z"
+      },
+      "message": "Fix `linewidth` of `draw_key_polygon()` (#5815)\n\n* `draw_key_polygon()` uses actual linewidth\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "7d5aa90594930eecda99d93f55f71f6a5f030930",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/7d5aa90594930eecda99d93f55f71f6a5f030930"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/89b829dfdb8a6db30c11de81432a76924235cc5b",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS1LcCRC1aQ7uu5UhlAAAyJ8QAGxXegMT2taN5/hTEBUXkOmW\nKYsJ3DFSKusd7IMAkq73FChSMP28hsYbOJ2DCbIIlHiYyOn6kK56u6/didmfLsF/\ni9R4tmSOon9k5XeLC425SJnVng9M+aeVYKkvEmGA12D1zcZGoNBp82quz1pCxY+M\nVpCM8aR26dOIlG50QThznl+gAfzQYAzHr9viHMm5zfQExPAlfyVBtKfqDAknCydv\nhN/qhrH5IS8+7PKaL4X9OrbNk2hTd7Am+W5StBQOsOGAKZEorsow6JzqdtRCKf44\nUku9zXHbLyaO8fOjE8p3BtQuBZ7Pa8YLysD3/n7URdxWEgqc67Woiw7I6qFxG641\n+ZX4zG8L38dPVH+YB+kdPnUWkeHiJm4RnYPI7VuY41RGOnifP1YEVJo3UCIp9N3C\nNI5d0G2dGqa7ucZ8cXFfQ7U2x1qw7mu7oRX2X89ROHFnPT8l6+Gei6zuKmznL7Ua\npipTO0tTv4aufnWOF0sdi0UpApQShKlCw8zYW51DHfOZh7zuozBoG7ljz6IYhI0g\nO91rn78T0h4zj48pVqJZ3EXSPZN5vccz9cHzPWYYah+KSw8jHrFCCJ4PXi8B+uY/\nmE1bYq1fAz1UrnuvxOQ0fszsLapw4xfxvmKnYSY054ZOZWZrG7523cWsRWrOp65L\n8xkXxt3kWZbkUKpx4hk0\n=ws0M\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7d5aa90594930eecda99d93f55f71f6a5f030930\nparent 9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716212444 +0200\ncommitter GitHub <noreply@github.com> 1716212444 +0200\n\nFix `linewidth` of `draw_key_polygon()` (#5815)\n\n* `draw_key_polygon()` uses actual linewidth\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/89b829dfdb8a6db30c11de81432a76924235cc5b",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/89b829dfdb8a6db30c11de81432a76924235cc5b",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/89b829dfdb8a6db30c11de81432a76924235cc5b/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7"
+      }
+    ]
+  },
+  {
+    "sha": "9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7",
+    "node_id": "C_kwDNS-7aACg5YzRhYzM0OTJmYmU5ZWI2MWE0MGU3NGY2YzcwYjJkZDRiY2IxMGM3",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T13:24:42Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T13:24:42Z"
+      },
+      "message": "Set `width` as aesthetic in `geom_col()`/`geom_bar()`. (#5807)\n\n* replace hack with aesthetic\r\n\r\n* remove `width` as parameter\r\n\r\n* regenerate docs\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "ec91cb6eb77c2bc47f59b4cb3788eb9f52bc5af5",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/ec91cb6eb77c2bc47f59b4cb3788eb9f52bc5af5"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS08aCRC1aQ7uu5UhlAAAxBUQABLbTd2Cbr0v2oJ20ENF/znZ\nI7MGLIaT/2WHjHD2OVJUDAoJAN7ttjM6PDr1Tt9rS0q/meDMFQbM+8MpGIRXy+sD\n6qEbIW8FHC7GEhqkncjKLPZBuGNKD5UQojMOl4XoM0HBxxJx3L3+IYrROmq4CYxW\nrOicVyYn8RsY/biG9QmeE7HG7eeSpevng5ELaLgzdKOnLsbdLPW/CcsmB5+13NsW\ntEHYyD0Kr5hbhWji19tLshKLh2dFe+EGfCabgQlU2lvh3xcw0g+4EBEwyMRPio/Z\nAr8jthkvAXnWi+mtvvppkZBl24Es9QhhloxdU7Avpcm0rtA3mrX5g6at/SNRyn39\nHH2Qd35vogA6sn6S/Z5BL1JpaDAWKnGRtSghMDyMY2x2yrC+B87rFVaDVl4RGqy+\ng73DxMNuPaDqK11YXNRO9PH4FZRaA7X6HLSHjY/iDVwriOkojs/NPzHgJ9z20hhW\nAep3AKFqzgkCIjSkNQj9PQVy1eNpHMobtxOYyPAqRCN+YFhRx86hUG4fgdaeGagF\nifOGNBHefNnL1mqCR4N1fAXiQtsKkKKpLxkkCQPAoYX8at0yVBOO3MQ2l65hNoTl\nueS6b3XmA1XmgdnFq5VTs+zKTa8chn+n4/j0S8jC178nBcjNbPVADFmOk3AURsFc\npdExmPb+RjAInDMB9GMD\n=MMo1\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ec91cb6eb77c2bc47f59b4cb3788eb9f52bc5af5\nparent be3ae5ac1015a41d816e9e264c5a1decf59dd1d5\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716211482 +0200\ncommitter GitHub <noreply@github.com> 1716211482 +0200\n\nSet `width` as aesthetic in `geom_col()`/`geom_bar()`. (#5807)\n\n* replace hack with aesthetic\r\n\r\n* remove `width` as parameter\r\n\r\n* regenerate docs\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/9c4ac3492fbe9eb61a40e74f6c70b2dd4bcb10c7/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "be3ae5ac1015a41d816e9e264c5a1decf59dd1d5",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/be3ae5ac1015a41d816e9e264c5a1decf59dd1d5",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/be3ae5ac1015a41d816e9e264c5a1decf59dd1d5"
+      }
+    ]
+  },
+  {
+    "sha": "be3ae5ac1015a41d816e9e264c5a1decf59dd1d5",
+    "node_id": "C_kwDNS-7aAChiZTNhZTVhYzEwMTVhNDFkODE2ZTllMjY0YzVhMWRlY2Y1OWRkMWQ1",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T13:15:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T13:15:57Z"
+      },
+      "message": "Add section about width/height (#5814)",
+      "tree": {
+        "sha": "fb09cb4a3c9350198ee7c3583352a5275faf5837",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/fb09cb4a3c9350198ee7c3583352a5275faf5837"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/be3ae5ac1015a41d816e9e264c5a1decf59dd1d5",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS00NCRC1aQ7uu5UhlAAA3dwQAEiGmJSYVrslbFzbV6DaUCFN\nEH8YCgInTX9FCkp0lY/kEMFDZfG3PnFwKxAMMogo9nrH2t3e6QwMpELm27wiv1WC\n5d4Ia3juOtVdjOykCxQwDZDRCdNf9JIjVzSa7tLcTX4c0Jc5KZ8ujPjaDW/feefs\nGkMFVz2IwlFexxwyym/e0ZwRJQu2645AF8+NdfW4hGUPK0DInT0VofnY8alBqCBO\ndmMH5PSw0iprzYcMCn5EE2leOPKIkmBBu3b3VBPm4kWOqoOsfp6zfmSzjfNzpoUi\nDcVrESdR19N/2rKivjwEQ9tSiwlfESQbW8ulexjUekdL2hImvThcG/RVI+Q2pLyL\n/6Gvy6e0bLNt+AlAkCCKpvJ21JYaziFU29wxWlkOqf6yPci76bO8E2iyZEXq8+j7\nsjwoO2SE7P5oQYFWJdZ2vuwsZbUCW/GElDowhujl1EoI7L4jqUm33OYj8zmvrTJ/\nl0xie6WS8upu4n07INcwrNyfxcHhPjEGGRkJ1+7aATTl58igAeoiSwUcljMSXZh6\nihZVSNNjfk+CijRFXwI7fON8QLmY6vDkkvJcRqI/13KKSM2CuwEWBxKWCI2LBtmZ\n1t3hGhoriD3O35GOcCxln5EOdRqqHI/NIJXX13vmC11YROj3NwVJ1phER+ereM2e\nXSTiZRbK+17rzOogEVQK\n=bV26\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree fb09cb4a3c9350198ee7c3583352a5275faf5837\nparent ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716210957 +0200\ncommitter GitHub <noreply@github.com> 1716210957 +0200\n\nAdd section about width/height (#5814)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/be3ae5ac1015a41d816e9e264c5a1decf59dd1d5",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/be3ae5ac1015a41d816e9e264c5a1decf59dd1d5",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/be3ae5ac1015a41d816e9e264c5a1decf59dd1d5/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33"
+      }
+    ]
+  },
+  {
+    "sha": "ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33",
+    "node_id": "C_kwDNS-7aAChlY2Y1ZjQwYTM4ZjI0ODQ1YWU0NWM4MjY0ZWI0Y2I3ZTE0YTNiZjMz",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T13:15:35Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T13:15:35Z"
+      },
+      "message": "Function for completing themes (#5804)\n\n* exported wrapper for `plot_theme()`\r\n\r\n* document\r\n\r\n* add test\r\n\r\n* add news bullet\r\n\r\n* Allow for unclassed list themes\r\n\r\n* fix failing test",
+      "tree": {
+        "sha": "f3209235c689ed6559cf8629202d8687e084f024",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/f3209235c689ed6559cf8629202d8687e084f024"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS0z3CRC1aQ7uu5UhlAAAPwcQAIBjKV3UFTuiFWSGzTyYcayE\nA64GnG+EMsw+efVSIjLHc1l7MIuB43djAUDa42AQy3hbR8L+9nZ6Qs/FZS8WA4nP\noepI1GOXzrAisPZWPHZ+7AwPbUikJirNQ0N9+RzvLOzwmmhnZKpWIDmML4W3pM+E\nPLvyonynWEHLLqXT6Cjls+GDQvM4Kkq542bzPiFRN1DdgTha/mwLtInw1QInXcYZ\nJCtqGytvg7Z+GGShIL9ZAtZmmlrOqKP2a/fiqmpUO0iOp5qSo7OZkWPp6PhXOgsS\nqveJZ/4acuNmDs+gIqVMVqI9CEqq8262rzh3iZlVASxFOBJIU90YDTb42bJJ7Boc\npmZNyHMtilnAaGt3SlnhAzoc8MPEPddYHPOtaIy1YnDONOCaQGXqSHvgqEodTAAr\n48fk79+iJcxO2N8VtxeECBKMKBsV+jSxLJ8PXZhv2KIeHzS4lT4IwDZI5KZzAZUX\nIIyryqBI3nPdqdO/srPgYLtwwaDLPK0lzpXm6kds1MjtpqkE3kOVMyHuQDkXkRl1\nqx9zlOqbI+orDmx/Nn70eDX9c55W5UoeLtQOA8tYbpHFJ+HKO/JcKPPEC+7Fszl4\n0J1AAx/gf3jL4/D8FOB67mfR6X0EyMukRS6Ni3nUgZTnAm2j6ulenvOYa5JATqLv\noLoIzDAJLl2KNxyxcnz2\n=Yis+\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f3209235c689ed6559cf8629202d8687e084f024\nparent e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716210935 +0200\ncommitter GitHub <noreply@github.com> 1716210935 +0200\n\nFunction for completing themes (#5804)\n\n* exported wrapper for `plot_theme()`\r\n\r\n* document\r\n\r\n* add test\r\n\r\n* add news bullet\r\n\r\n* Allow for unclassed list themes\r\n\r\n* fix failing test"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ecf5f40a38f24845ae45c8264eb4cb7e14a3bf33/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca"
+      }
+    ]
+  },
+  {
+    "sha": "e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca",
+    "node_id": "C_kwDNS-7aAChlOGNiNTk5YjdkOWI5ZTAwZWI1Zjg5Y2NjNTFmMWY0MWQwYjZhOGNh",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T12:56:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T12:56:43Z"
+      },
+      "message": "Add `ggplot_build()` method for <ggplot_built> class (#5803)\n\n* Add `ggplot_build.ggplot_built` method\r\n\r\n* small simplification in `get_guide_data()`\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "d6a502a936abee108ad9e5a60b1be059cb232ddb",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/d6a502a936abee108ad9e5a60b1be059cb232ddb"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS0iLCRC1aQ7uu5UhlAAADxYQAEUchbnZCyC9sPKcEQ4mlGtz\nQnEVu/Cf+UY3Xj0YtAtHaQ6KOxWRdcDUNrSUOcHp4Hnm5g4eB02A6fHmulS0+UjZ\nuUxamAevhil+mHwRGkC7Y8WTD8/Lx6WR7mAzZVYYkuONzznqChqeFXcSHKBbvKbN\nkAe3fl93SSk9UsIT08duAPvjaQaC1dBcvc8jmwkrR/Upt+EXwbO9+UkuvTa2fiyz\nteY6GoJBLxsv5/uUH4y5YFDIHpv1VjHmRXVIUet0i6T///4nbSz9eGU7FTID5eu9\n8gDBm71laYsHDCNsxf9cerZ//jfigdEDbdJleP55PXV+SqPeS7bAIRji3fRfSLfA\n9om0OU1rI2Hxxt5BqVOeZAlH1+Bza9Fh+wUF3uJYAkutVT9AlG0M5BXdreZUuOVK\nvHAkJfSnRwQZpuKay3FJ8Yp2ASUJZfuyHk/a5ZWoR4ILbhLXcHI0sYtZGXfRF32u\nxo3Z3iNbn4pCGj1aTXO0L+rVvW+taFUVc0GTR2iA1eUyO6VbLXYyYAu44D+DTFb/\n8gThqpBU3EwhXg6wBd02KBnaHORZyVv+YrF5M79oh+huFnPzWEpeYURHxe8K7xoF\nrpqEi7DEocgNjTomabtybcdBgaWnNFF9JshsM7ylTErBv6LxLVhw6ibkwV08g9G0\n1Qmf32dP0h+4dV9usGFj\n=NQns\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d6a502a936abee108ad9e5a60b1be059cb232ddb\nparent f7cf2af28dba72327188c1c112994f2e53809f07\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716209803 +0200\ncommitter GitHub <noreply@github.com> 1716209803 +0200\n\nAdd `ggplot_build()` method for <ggplot_built> class (#5803)\n\n* Add `ggplot_build.ggplot_built` method\r\n\r\n* small simplification in `get_guide_data()`\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e8cb599b7d9b9e00eb5f89ccc51f1f41d0b6a8ca/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f7cf2af28dba72327188c1c112994f2e53809f07",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f7cf2af28dba72327188c1c112994f2e53809f07",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/f7cf2af28dba72327188c1c112994f2e53809f07"
+      }
+    ]
+  },
+  {
+    "sha": "f7cf2af28dba72327188c1c112994f2e53809f07",
+    "node_id": "C_kwDNS-7aAChmN2NmMmFmMjhkYmE3MjMyNzE4OGMxYzExMjk5NGYyZTUzODA5ZjA3",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T12:53:24Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T12:53:24Z"
+      },
+      "message": "Standardise `get_*`, `set_*`, `update_*` and `replace_*` prefixes. (#5802)\n\n* standardise layer getters\r\n\r\n* standardise theme accessors\r\n\r\n* Make `get_last_plot()`\r\n\r\n* propagate changes throughout\r\n\r\n* adjust docs\r\n\r\n* add news bullet\r\n\r\n* missed a few replacements\r\n\r\n* propagate to recent PRs",
+      "tree": {
+        "sha": "a7bc96530dda9995bbdc68930a9dbf9400c9a91a",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/a7bc96530dda9995bbdc68930a9dbf9400c9a91a"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/f7cf2af28dba72327188c1c112994f2e53809f07",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS0fECRC1aQ7uu5UhlAAAKXsQAHG2DyLXrGCZLiQMLOQoIe2M\np5g8ROCXGcvid/isEnjJGlfkNr4jTRggq7eUufO56YoalqlIFZDSWRE0S/pasLjx\nWs1xaFuA/Zh4ZujLupMBhRS8xyH8srFPjXHnKGNyIW9kzA88E+1uWHEVKCQL6KAz\na2CTiJ4/yoEreWm4PQAlwYgK8AI66yzxZ8gOIFI1xgM8We/DbmMpC0AUWDOkwfcE\nDntw2HAIAwCREHyWlZkM5K4GwQ+/yg8n6ZAx/1UHvpvG6vbLQNrHwUNxnmdXKEca\ntFNcBVKM8gVyhz/Q/TCcR+QA8f4z16cFpLGQNOc+ryFOYyHUU0I9V2A33C9peH40\n2HbAogLjXruOarBYGwOpPDTfUcwiyLN/lSgi1oN0fxrmmBnWkBxGeblhkRZk3rBO\nLOM5KGR3rZ1aru8g/0Bqqd+og8r/CX9ba8L8UXODqLSV6tsRzl19aWhc5eO6n74/\niYb80l2bs6gkN6ZQ/d5SkTGshDG/ZfBJPKM49kauWC7TexhDVYi+kCoxAvMMIVEt\naXXxY2T7Zh5rdoHSrcGXKHL7d0hDjoiflX++U4X1cc1U/OI6f2zikKMuQWf14K7o\nNqusgFFu7SsSvrKOxrAps8auzdGI/GieCQgh+kAYfoSfSOP4kORxl8jyo/RcTLA1\n8Bh9HQSPyhoXBTvWlkyb\n=0O3v\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree a7bc96530dda9995bbdc68930a9dbf9400c9a91a\nparent f89a00751668b3ec39f2d83304c3d2fc104c0ca9\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716209604 +0200\ncommitter GitHub <noreply@github.com> 1716209604 +0200\n\nStandardise `get_*`, `set_*`, `update_*` and `replace_*` prefixes. (#5802)\n\n* standardise layer getters\r\n\r\n* standardise theme accessors\r\n\r\n* Make `get_last_plot()`\r\n\r\n* propagate changes throughout\r\n\r\n* adjust docs\r\n\r\n* add news bullet\r\n\r\n* missed a few replacements\r\n\r\n* propagate to recent PRs"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f7cf2af28dba72327188c1c112994f2e53809f07",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/f7cf2af28dba72327188c1c112994f2e53809f07",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f7cf2af28dba72327188c1c112994f2e53809f07/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f89a00751668b3ec39f2d83304c3d2fc104c0ca9",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f89a00751668b3ec39f2d83304c3d2fc104c0ca9",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/f89a00751668b3ec39f2d83304c3d2fc104c0ca9"
+      }
+    ]
+  },
+  {
+    "sha": "f89a00751668b3ec39f2d83304c3d2fc104c0ca9",
+    "node_id": "C_kwDNS-7aAChmODlhMDA3NTE2NjhiM2VjMzlmMmQ4MzMwNGMzZDJmYzEwNGMwY2E5",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T12:32:32Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T12:32:32Z"
+      },
+      "message": "Discrete minor ticks (#5777)\n\n* plumbing for `minor_breaks`\r\n\r\n* proper `get_breaks_minor()` method\r\n\r\n* view scales treat minor breaks equally\r\n\r\n* tweak param docs\r\n\r\n* Add news bullet\r\n\r\n* protect axis against mixing types\r\n\r\n* remove duplicate news entry\r\n\r\n* accept new underscore argument",
+      "tree": {
+        "sha": "8752b696501b1c486074efc7b583a989bb537499",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/8752b696501b1c486074efc7b583a989bb537499"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/f89a00751668b3ec39f2d83304c3d2fc104c0ca9",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS0LgCRC1aQ7uu5UhlAAAYMUQAIRw6CB8O5dUXGHZx5OJonar\n36TLnVgCvLwDlfqNepzGOpK+B0KnFnW/chiih/oO1jaZuhaKGF5sqkBDSb1Vip7y\nq/Cdhdtx1Yv5TPdhOnq4RG3egMSLKp1A4ghqnkcPXxMSJpxGmG0szPMS83SjIfjT\n569q9Z33l534966G+LEsox/VLBf2SgQtQqNttrIC6KgsJr4yNye0f8xNA9PACjgz\nbrJneFAYSoyhri6A4KWXhnsDs8MzCc/RUIMW21onYzaNbt0yZwQFUhwNA+Ph16RW\nyBauWd7Fm+pXC0fds8zRRyg5BG1z+TIGzqibhZ3M/br0FFmaUhiwQ1UT/7tB0Wzl\ndzyeEMd4Xf67kokvIkaBtGACzV+uxsqAZVdF+yPMgxW7Cw6WPae/PFykkquLUf8D\n1ytTmYXSezi+eX6tWwBh4O/n0EJo31OJ1xrQ6FSp5SSIGK6Qv8IgjXNd1NYAXVtG\nR7xoRD+GMyw6EmUYDydXqZzlWQgMHd/DGypOUtYiOd/FLOT38kWUHlMRD5D/sq8z\nwKy/2MVDbt9ZSNAvZeTXXoUrE8nT6D6vS8vH/rGmkrPCYLHGVZaU9O6vLUvRR5H9\nVmEarG/N8lDyupd3Qw//DJMDDqdj0eMkn+Z1KhRjYYUm4SbzSVjkZBgfbIGjOU6w\nJL2axQ/lPD4Snyhc5l00\n=renH\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 8752b696501b1c486074efc7b583a989bb537499\nparent 0b348cd201af7ce8f2858f51f743643d56639452\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716208352 +0200\ncommitter GitHub <noreply@github.com> 1716208352 +0200\n\nDiscrete minor ticks (#5777)\n\n* plumbing for `minor_breaks`\r\n\r\n* proper `get_breaks_minor()` method\r\n\r\n* view scales treat minor breaks equally\r\n\r\n* tweak param docs\r\n\r\n* Add news bullet\r\n\r\n* protect axis against mixing types\r\n\r\n* remove duplicate news entry\r\n\r\n* accept new underscore argument"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f89a00751668b3ec39f2d83304c3d2fc104c0ca9",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/f89a00751668b3ec39f2d83304c3d2fc104c0ca9",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f89a00751668b3ec39f2d83304c3d2fc104c0ca9/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0b348cd201af7ce8f2858f51f743643d56639452",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/0b348cd201af7ce8f2858f51f743643d56639452",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/0b348cd201af7ce8f2858f51f743643d56639452"
+      }
+    ]
+  },
+  {
+    "sha": "0b348cd201af7ce8f2858f51f743643d56639452",
+    "node_id": "C_kwDNS-7aACgwYjM0OGNkMjAxYWY3Y2U4ZjI4NThmNTFmNzQzNjQzZDU2NjM5NDUy",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T12:20:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T12:20:54Z"
+      },
+      "message": "Skip alignment/stacking when possible (#5789)\n\n* skip alignment if there is just one group\r\n\r\n* add extra group to test\r\n\r\n* skip stacking if every x position is unique\r\n\r\n* add news bullets",
+      "tree": {
+        "sha": "44b5758011d89dadcd6f7458db62058fcaac347f",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/44b5758011d89dadcd6f7458db62058fcaac347f"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/0b348cd201af7ce8f2858f51f743643d56639452",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmS0AmCRC1aQ7uu5UhlAAAbXIQAEn1jJDor/+kdah3k8/k7Ut9\nXV4zL55JRVa+ELYQJejQzO17aOm3R6uRhsqXMI15m0iDIbBPDJd2goOW93gRipdO\nyOQQXFpaJDVGz/ka8mcnZEPQw/rbag8WPuWKdCcnVq5BqCCOgPhIGMH+7MCh8xfp\nFlb9OKgHy3RevTkEte4NUViEMH2txkToLo0XN7L/qed5/7ngiqAMeoAc/i0l7Lel\nQfCj9DQnjBPcNamHIVXQDmJzm6VnjM9Vzzv2nsrebK+5kZ/faz2YFPu+CJMqvalA\nFrLjtBkr25c8Qvg6t6mt0a55FBqZcdNPDVetbgotxFtZ7rHphd94DH6TryRyRqZm\n0/HD13Hrr+WXitvRh1U2E11kyhqtLhToF5YCQFNqIlZXjoRGeMNScYkSTlOysg5p\nRa1i6lBdsxT6JoUK/2iCaOps4IFsuMFvwaL45TWn1C4ZpmZpbqB3ALyMftqsj61x\n4UYZ25wwJRZmNa7Obcrs+s5WlWMqKMGWO7XdSSve6thFJe65IWq8cY1sjczYj0j2\nQlk+oWhTgOljoLoGAauWA/GqRrM90vAmrYblb1GtPC4xIBYMmPSqfRUcx988nNmP\nFuJ/OI7ygaKNvFjrYOqBlK8InKfUlwdIgs5GkN1vjOtrRoJT37Xj0SV7bSlX6YGP\nMzohYdgnub4eNdQ7bIDD\n=2pQ2\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 44b5758011d89dadcd6f7458db62058fcaac347f\nparent d3adf172decaa0feec8e7a3b75a497d2f5c83415\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716207654 +0200\ncommitter GitHub <noreply@github.com> 1716207654 +0200\n\nSkip alignment/stacking when possible (#5789)\n\n* skip alignment if there is just one group\r\n\r\n* add extra group to test\r\n\r\n* skip stacking if every x position is unique\r\n\r\n* add news bullets"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/0b348cd201af7ce8f2858f51f743643d56639452",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/0b348cd201af7ce8f2858f51f743643d56639452",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/0b348cd201af7ce8f2858f51f743643d56639452/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d3adf172decaa0feec8e7a3b75a497d2f5c83415",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/d3adf172decaa0feec8e7a3b75a497d2f5c83415",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/d3adf172decaa0feec8e7a3b75a497d2f5c83415"
+      }
+    ]
+  },
+  {
+    "sha": "d3adf172decaa0feec8e7a3b75a497d2f5c83415",
+    "node_id": "C_kwDNS-7aAChkM2FkZjE3MmRlY2FhMGZlZWM4ZTdhM2I3NWE0OTdkMmY1YzgzNDE1",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T11:42:45Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T11:42:45Z"
+      },
+      "message": "Transparent fill of panel borders (#5784)\n\n* Force `fill = NA`\r\n\r\n* remove superfluous `fill = NA`\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "6c2eb85dfa212edbb8f1d472402aa1b2cb90082e",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/6c2eb85dfa212edbb8f1d472402aa1b2cb90082e"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/d3adf172decaa0feec8e7a3b75a497d2f5c83415",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSzc1CRC1aQ7uu5UhlAAAxs0QAJUh1RIPJvWlyxe9lq6+3K2D\nhkwP8+bfi25p6JE76LkV7xuGOsrc/USJcbXDGJP5HfYj68rE9JGAQpbFac0WO4ys\nSV7xr2rCrQHG6gPGZAZgwjp1wHDtDfAO8oK84w8QqlpWtqfzMoPEXyIsmQZE3y6C\n3kalNa41mgWExVxn5byy2zEEs+JS7K8Z4IN3J2MAZuHHLaHroHHLvK5DMGOI1BZ0\nk/83VLk1ZOV15Bj39/EAFp6qYDkvyPPr3LRzAWMlKWtcweTepYDY2K4PUz2ncFc+\nhPGKBEG3v7VwwoDeVDZ/nTspdNZZzSg8C6w44tlQE3r5GB/PeCAJ2TjJ4IJ+H6te\nsyULIPLGicGwuuK2P9qd0ivhSD/frYKT6bIAJTnfmW82yH4RLdcSyBV4cNl9nzDn\nYJFbuszXiHjsvEv4ebrr92apwLV+xIXbl0uMbYcFr5dxhAbhEaBkIbbbrOTiiFz9\nGtx3sSaMSQRoiaesUHcam8nWnrSD2kH288ftJ4/wwzMqlb/VxGYv9WXg4NqWi4vZ\ncifi9mVStMOvTSLxlplGniNSdM2EQV8K/UjD9lDaRfrszS1KvZRewDthcaMFG43P\n34IlXVK7vc4lhtrlfakJrSa4JwKBoltSzuXCgBYvQHRW+/FBladSsuYxnwqryWsm\n4BBNvH2clAjfIJOCwDa4\n=ByB3\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 6c2eb85dfa212edbb8f1d472402aa1b2cb90082e\nparent 7a006da07c9b89976cfdcf6546a5a4d3c4e1047f\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716205365 +0200\ncommitter GitHub <noreply@github.com> 1716205365 +0200\n\nTransparent fill of panel borders (#5784)\n\n* Force `fill = NA`\r\n\r\n* remove superfluous `fill = NA`\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/d3adf172decaa0feec8e7a3b75a497d2f5c83415",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/d3adf172decaa0feec8e7a3b75a497d2f5c83415",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/d3adf172decaa0feec8e7a3b75a497d2f5c83415/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7a006da07c9b89976cfdcf6546a5a4d3c4e1047f",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7a006da07c9b89976cfdcf6546a5a4d3c4e1047f",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/7a006da07c9b89976cfdcf6546a5a4d3c4e1047f"
+      }
+    ]
+  },
+  {
+    "sha": "7a006da07c9b89976cfdcf6546a5a4d3c4e1047f",
+    "node_id": "C_kwDNS-7aACg3YTAwNmRhMDdjOWI4OTk3NmNmZGNmNjU0NmE1YTRkM2M0ZTEwNDdm",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T11:42:30Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T11:42:30Z"
+      },
+      "message": "Palettes for discrete scales (#5771)\n\n* Discrete position scales use palette\r\n\r\n* Plumbing for `palette` argument\r\n\r\n* discrete range derived from mapped limits\r\n\r\n* adjust test\r\n\r\n* add tests\r\n\r\n* palettes take `n` just like other scales\r\n\r\n* reoxygenate\r\n\r\n* rephrase palette arg\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "39414d2195d625d4bd62ff2b7cd5cfb3c2a3688e",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/39414d2195d625d4bd62ff2b7cd5cfb3c2a3688e"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/7a006da07c9b89976cfdcf6546a5a4d3c4e1047f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSzcmCRC1aQ7uu5UhlAAA/v4QAC/MD7Feui+CwNez1mVf/lcN\nDB5RN2TFuRFATCciwlAgVfU7VJg6OvdwHTrj7qcwl+x6D9ZFdVsrMnT8kmZB3t5a\n9iV6UtsQwtoVlDroCL8LZgJbfs0tOAp8BarvrQMkwhiAWI8vWArFWtTfjkhN8mkS\nja0ZeKivhbjdKH4Vixmxg6BxdBJ+Hv6PVrByfahg6zPEY0LimaFO8LvZLzNL5ILz\nzQq6y8MKGzgtgYCSjhPU3Rk4miZgmHTg+Gnmm3wX4TjyzZz5+9C+PHPkPJ98k8cz\nxI+s/Cyp96z2hsAkSbJU5r0kyritMP1l0r2MAuuP2m5o+65RzvcqyUX2zCl/aphi\nXxkIW9kQfuQi3q249SKiDWoukCfO+zD+KdGN4gPlmgMm0Mb5gGLJ+f7vhtrdOV0x\nYnaZ2fy73bYAvB8pQRyGK7A+rDg64Rgvbg8DMFdZbmQCnTqXRgk2CQP9gxoyBduW\nhruc5J6YTo61+5n9X+5f/U6X/n1qSULKKg2UiGCJA4B4kyzTre4IoL6e6nJLfinR\nLIvjhV7BXGmrLWXbgQAwrWQjl7N0BrjqCIZsBQVIRsR7Dr2IyhhRB9L0EtdsXpEK\nRzy+v/fyLMkL7ala2vtbF7Ym2HQRBi7yun3zvls5mTHBkoTrfjCUvNwiQUK/+lgL\nM5NMk+G+lhoAnrmfUFtD\n=eNet\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 39414d2195d625d4bd62ff2b7cd5cfb3c2a3688e\nparent ae02c681e568d777639cfdd46b0ff60de4fbad9a\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716205350 +0200\ncommitter GitHub <noreply@github.com> 1716205350 +0200\n\nPalettes for discrete scales (#5771)\n\n* Discrete position scales use palette\r\n\r\n* Plumbing for `palette` argument\r\n\r\n* discrete range derived from mapped limits\r\n\r\n* adjust test\r\n\r\n* add tests\r\n\r\n* palettes take `n` just like other scales\r\n\r\n* reoxygenate\r\n\r\n* rephrase palette arg\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7a006da07c9b89976cfdcf6546a5a4d3c4e1047f",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/7a006da07c9b89976cfdcf6546a5a4d3c4e1047f",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7a006da07c9b89976cfdcf6546a5a4d3c4e1047f/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ae02c681e568d777639cfdd46b0ff60de4fbad9a",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ae02c681e568d777639cfdd46b0ff60de4fbad9a",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/ae02c681e568d777639cfdd46b0ff60de4fbad9a"
+      }
+    ]
+  },
+  {
+    "sha": "ae02c681e568d777639cfdd46b0ff60de4fbad9a",
+    "node_id": "C_kwDNS-7aAChhZTAyYzY4MWU1NjhkNzc3NjM5Y2ZkZDQ2YjBmZjYwZGU0ZmJhZDlh",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T10:47:44Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T10:47:44Z"
+      },
+      "message": "Resolution of `geom_tile()` per panel (#5764)\n\n* compute resolution per panel\r\n\r\n* add news bullet\r\n\r\n* add test",
+      "tree": {
+        "sha": "913174d538610a8281647da63ef7401a7e4fb4ed",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/913174d538610a8281647da63ef7401a7e4fb4ed"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/ae02c681e568d777639cfdd46b0ff60de4fbad9a",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSypQCRC1aQ7uu5UhlAAAU5wQAJgEWnxJfbxn5wmV0RNxvJ8B\noHwIKPbznNGA0HVxs9S6pdNl+xTcQhW3fJa+qxPwB9JFCgLlyhdkI8nCWx2qDKeX\n/Mxs9bun09kA/8WWGr7MtJ5DV3kobc7YeRj7AJsjNCRdWX5lVhbaeS7UudG2os5E\nis/L00H1ZHmiP+WipPtrLnsFUqh80yfHiZbcM8MzVrXlKzkoj9tPfo86P8hY8Ahv\nIv4BmUqTf73vWKl1ADcwswLUNhQoi0rDQiOetPV1MoveKZ0d8T0U+SucWi/UwVQx\nNWxOxbX3yS7KoXstQHIFLlp+xuLYYAKbcDErsX7Jw2ix8eznEqRrvocgs4jH4uL7\nHAp+lMX/kRT1F4JJmlNQNUhyfISGiMQj5XNcHwiPQf14loLS9QbwSrFH2/yUN1X2\n8M60jVP2cWyKN5ff2MgAFAbRPgVAFtQSTKA5W9L7ePIwu47UaN6YMK7/8ZIPhMUU\nzM7i1Jhm76pzxJOPl/q2XdppKkPcVgu3hsMS4YDRtlNNe+eWYaIogENtaZyghgVU\nN76n2Fz8FiZasFB9g8j+sQkoyFVSPtwRtWpdEmiBvBtIMB+W7MC6R+WECcuOIp24\n25PtdVdh7Nkfr0q48zCRmQXbFTgJBsyRu4gfrZqgxXBii4Dd+KdMQRCOlyJ79QYD\nnVl6rYxv4zMkesJ+O3Ki\n=50oV\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 913174d538610a8281647da63ef7401a7e4fb4ed\nparent e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716202064 +0200\ncommitter GitHub <noreply@github.com> 1716202064 +0200\n\nResolution of `geom_tile()` per panel (#5764)\n\n* compute resolution per panel\r\n\r\n* add news bullet\r\n\r\n* add test"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ae02c681e568d777639cfdd46b0ff60de4fbad9a",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/ae02c681e568d777639cfdd46b0ff60de4fbad9a",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ae02c681e568d777639cfdd46b0ff60de4fbad9a/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d"
+      }
+    ]
+  },
+  {
+    "sha": "e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d",
+    "node_id": "C_kwDNS-7aAChlNzJkMWExN2YyY2Y1ZmNmMTM4Y2YyMmUyYzNhYWVmMDRiZjBiYjFk",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T10:26:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T10:26:54Z"
+      },
+      "message": "Fill in missing `se` parameter (#5700)\n\n* fill in missing `se`\r\n\r\n* account for flipped aesthetics\r\n\r\n* add news bullet",
+      "tree": {
+        "sha": "190e50317dd020521405af31a0d948df63fb200e",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/190e50317dd020521405af31a0d948df63fb200e"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSyVuCRC1aQ7uu5UhlAAAoGoQAKwmwq1KX9YcgPjI6q5qn2Wn\nOhJFGMdmwutL82NzzqA8Tz0KERHH+0Gm3fP36QTuF5Yx4yELlU8BOftuZ9TcrPR5\nkcHedbcPmrpVmKeC8D9uT3JZ2eW9wxaIATzPfo3D6755S1pZTHXocbzahQZcMWzI\naRXqAAvMvq6PGwn8zQ2DcZAoKWw28mBfQuQD7xMA6J1Nz/3za4nusmhroTfYWB7q\nvGTBsuo2lQvOAaNqxNRLt15SGjYBxfXgq0NMmkb+dCQ5vUcc4U8I1CyU4pVO9nSj\n+s7PAMsUPn3nJWcBnnfsT77ixJ58cDKQhKZvsBhUtdFc0kQGQ+HpwUiwnjhVGjFb\nAdc2mRh+zKeyIkz/gY7n0+O6jT2iK6zbyejEVKObBtBrrZyzlCs+fJEbiVgIXgmV\neF8wrDq8HJ0YeC6CZ9fXyhUlNpCsL9i3+ZU4Fd2mlwe00hHjofOK0ZPVCHGxt8kH\nv4KxyHKcG5C0c9r7aftY+BnuR89gKGEolLyeklKbUgKFnm2ck86qyWJ+z5X6tuM1\nveordg7UuwK6GMkUCBibT868tqN6H1j3r/EnELwCuI+/4G4tSGU2uAzju1CNvQ9P\nd0JIhuusOs9x+AB6IbB591eMzVkhwbNYySDsKVBnLmN+ZSBCrnhLqyrnuxgI0j1V\nXzAQCIVPtEdbEBE74mmh\n=FOgY\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 190e50317dd020521405af31a0d948df63fb200e\nparent f8dac9d4170feea1ed94b4b8816e70b08a1258be\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716200814 +0200\ncommitter GitHub <noreply@github.com> 1716200814 +0200\n\nFill in missing `se` parameter (#5700)\n\n* fill in missing `se`\r\n\r\n* account for flipped aesthetics\r\n\r\n* add news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e72d1a17f2cf5fcf138cf22e2c3aaef04bf0bb1d/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f8dac9d4170feea1ed94b4b8816e70b08a1258be",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f8dac9d4170feea1ed94b4b8816e70b08a1258be",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/f8dac9d4170feea1ed94b4b8816e70b08a1258be"
+      }
+    ]
+  },
+  {
+    "sha": "f8dac9d4170feea1ed94b4b8816e70b08a1258be",
+    "node_id": "C_kwDNS-7aAChmOGRhYzlkNDE3MGZlZWExZWQ5NGI0Yjg4MTZlNzBiMDhhMTI1OGJl",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T10:18:31Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T10:18:31Z"
+      },
+      "message": "Gradients in ribbons (#5699)\n\n* support alpha/fill gradients in `geom_ribbon()`\r\n\r\n* add test\r\n\r\n* Add news bullet\r\n\r\n* Fix error messages\r\n\r\n* More aggressively enforce device capabilities\r\n\r\n* add missing newline",
+      "tree": {
+        "sha": "f3d1a20154de18f1d898311e35151dea9e788638",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/f3d1a20154de18f1d898311e35151dea9e788638"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/f8dac9d4170feea1ed94b4b8816e70b08a1258be",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSyN3CRC1aQ7uu5UhlAAAaOYQABLHRKZR2jpGxhjT7vplFmg1\nqqWxpeAacQLgKDjywAJfllh2NOws6yCdnIuwM7Uo2EMpK0XpInVZEeKvv3FrW3mu\nSxPty1GX9LU9T0RQmawtJBYYpNxwK1CTfIsg5BX5fDRTbGzHHB8NMUXVCRimH6wO\nHKODMmCqQNq+dbXmhjHRbpdSxStElas4XgKHWiJQR2MNeFEKSBYvgEe73C7BzgkO\ny0Xg7y1mQMR4t/VgY7Y+lZvv/2IHp2UL8J7nDRSY5GUe0ho2s74BLAuMWzq8RzZ1\noHbZQHe2XutINVCZer5jyELLfwUIHB4RDN774CXO2f/i7jXh/Linz3kIV8cZILjg\nqR+rpGKn2ZLnX1JHHGSrxk63EmmNJS0OrSJQuGZcOso6jQmFW6BJJB7VW6ib24RN\nEzpFZPemSUSLJKeTRPZ/LlR3CFsA+02KTnMkm4CSga1zb71XmBeUJZ78tOL8D0ev\n9QhRkVdVcsKhFE3x88ENbqhU12EN3N+TuwSqOgKz0L0t74PhX4Hj55UsCRGf4Eaw\nCheps6SQTMjE0pJw2NiilngZ0mLVNZ+UMXNLWmxer1Esfwg9RHnVdDVfLs9AxTPS\nIbLD1t3b+F9pKn0iBQPHsAF4MqoChka05b+PZ3uTNehcFX0tsGw7yv/uiUR1UEVA\nBSrYXIQSomCqzY1INH64\n=uPqF\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree f3d1a20154de18f1d898311e35151dea9e788638\nparent e22cff2c20af8c47d22c526d206cc52f010aef75\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716200311 +0200\ncommitter GitHub <noreply@github.com> 1716200311 +0200\n\nGradients in ribbons (#5699)\n\n* support alpha/fill gradients in `geom_ribbon()`\r\n\r\n* add test\r\n\r\n* Add news bullet\r\n\r\n* Fix error messages\r\n\r\n* More aggressively enforce device capabilities\r\n\r\n* add missing newline"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f8dac9d4170feea1ed94b4b8816e70b08a1258be",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/f8dac9d4170feea1ed94b4b8816e70b08a1258be",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/f8dac9d4170feea1ed94b4b8816e70b08a1258be/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e22cff2c20af8c47d22c526d206cc52f010aef75",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e22cff2c20af8c47d22c526d206cc52f010aef75",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/e22cff2c20af8c47d22c526d206cc52f010aef75"
+      }
+    ]
+  },
+  {
+    "sha": "e22cff2c20af8c47d22c526d206cc52f010aef75",
+    "node_id": "C_kwDNS-7aAChlMjJjZmYyYzIwYWY4YzQ3ZDIyYzUyNmQyMDZjYzUyZjAxMGFlZjc1",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T09:57:29Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T09:57:29Z"
+      },
+      "message": "Avoid bounded density discontinuity (#5642)\n\n* widen range of unbounded estimation\r\n\r\n* increase test tolerance\r\n\r\n* add news bullet\r\n\r\n* move bullet",
+      "tree": {
+        "sha": "deab9dcdaa4835dddf0a715440469543ecc3dc97",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/deab9dcdaa4835dddf0a715440469543ecc3dc97"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/e22cff2c20af8c47d22c526d206cc52f010aef75",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSx6JCRC1aQ7uu5UhlAAAXOcQABrpq0BQojZiFVe4z/77GuAL\nkOH4QOR7ILcDwBbwIjwlm5yo7DzRbUeWNyO5o+20MqOrMuuWcVyxG2jozmSsk8iv\n36ynGmF0Gtlk05c821oILR4AF2VhHaCHcrqIMynPhlpw4PQ/sI6zXL5D1oXgNa2E\nP1kjWAs8OiCN/OLLfgOdq2ZSuFuZD/GLKfB9P+CQVZOWg9y1k+UvdB5D275DAJTI\nyxUhbbzsKPsKMm7t3hQmDhZEJ3uxHJEwBd1c8Q4gvKn/q4bYb7KecTAahR/xRiDo\nsd/J63z35QVn0BJCinGBwo9QuJ4gRiZfv3wRQcoLgAvG+KIOKl6OI0YeHFaAC6P/\nnEPVkbqN2lwc4Tv0jDQJ27fy5GFRRbxy4QJY5nux0VMNHGSmcKkYT2kNgUlIslE2\neGP/uu1K+v0L3qL5SdQppekSr6DfoCKqU2RloQ23u8w8QDFmj0oKcQbtGgwEcOAG\npdkADVZCTrgm3V/is3WFJUXZ6f+kNfpDiFX9Rkb+N104886fOB/3LOL2jm9+8CBt\nHfSfFHVkk1qTAPf3vS7r8HsM11gYRxE/qhOmaTt6ESGv7oOyRjpVdYkPvxi8uMJd\nNfJZf+ySGcWcEXMRyOdc0vAxkMjXBE8RXA0W2E4T3fqP6yx0pmNJbOTdz2TgcGUW\n34tSd3gfvvgMkZBTWEb1\n=E9gD\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree deab9dcdaa4835dddf0a715440469543ecc3dc97\nparent b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716199049 +0200\ncommitter GitHub <noreply@github.com> 1716199049 +0200\n\nAvoid bounded density discontinuity (#5642)\n\n* widen range of unbounded estimation\r\n\r\n* increase test tolerance\r\n\r\n* add news bullet\r\n\r\n* move bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e22cff2c20af8c47d22c526d206cc52f010aef75",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/e22cff2c20af8c47d22c526d206cc52f010aef75",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e22cff2c20af8c47d22c526d206cc52f010aef75/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884"
+      }
+    ]
+  },
+  {
+    "sha": "b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884",
+    "node_id": "C_kwDNS-7aAChiM2Q1MDcxYmFkZmQzYTJlZjZmMDllMGM5ZGZjZTJkNmZjYzdmODg0",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T09:54:43Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T09:54:43Z"
+      },
+      "message": "New `spacing` and `margins` root theme elements (#5631)\n\n* add missing `calc_element()`s\r\n\r\n* declare new theme elements\r\n\r\n* rewire inheritance\r\n\r\n* Use theme for `legend.ticks.length`\r\n\r\n* fix bug\r\n\r\n* adapt theme_test()\r\n\r\n* temp\r\n\r\n* add visual tests\r\n\r\n* fix panel spacing in vignette\r\n\r\n* use `margin()` in vignette\r\n\r\n* reformat news bullet",
+      "tree": {
+        "sha": "d7e4f1f123f326251d9c6776ced32706dea0f9a0",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/d7e4f1f123f326251d9c6776ced32706dea0f9a0"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSx3jCRC1aQ7uu5UhlAAAkD8QAIP/Z6kjha5qtJij2bMTTVsg\nh7n6IJ0OqNxXR/cAVAL6DpX46BAd165OgZi1Vwpl4+48tjrmUbu1UwzJLjUbnNZx\nmBlfrx/p8orioQ+y7mZ1zWIJFT3kgZGBpDOhels9xYuuzIvmmzQN+oJjW4qxGqCN\nhfWkSbL9S++zQ9FTjCq3LrCxykbq6lY/BlZhrxf8cFje3Hksnp/3Un47/XBwJgOq\nQZq7Iky1Qqk5+Qj8JZGvV+H+rGtS8otknRsy/pEivfYrrAtc45RXnoVeADaKi9dl\nWxPU2EnQjec6wxxhTu8VdaklBLCKbBv94FMCnZJMKFIuzTgXuUjUa/T291MQqKx3\nwupQ8za/yimhEdJNtQft1Ht18atPHZyxVjAebZ9odGvksJ3rlmvw7SEGp/fGp2Nn\nnIByGMGkXqAmaCWyrHumOXPa970Yfpxlfe0y3w2hjVelfbqv95/5EjPfsSMAPPeG\nFnlKIKkUBVzZ4CWPs8ayvq0TpNGozSS/nTjRlbY5+J/9c/Qv4rmZz/wyOE5EczmJ\nYumhhExxJtAy6pMyGO6F8tILBnloYu0DynYWW1TNGubznFtueKXzmtEjdwwhnNNW\nIawdSB18d0s/Iy6umLsLAthjtKbMS4ELo9jIUC5KrQ8cvKhOEKjbCHL23GtkrShA\nqGdCXsJTSvKaLOIY8MZW\n=2Qcp\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree d7e4f1f123f326251d9c6776ced32706dea0f9a0\nparent ea6b799ced36994e7e50770d9d56bb2ad2709e15\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716198883 +0200\ncommitter GitHub <noreply@github.com> 1716198883 +0200\n\nNew `spacing` and `margins` root theme elements (#5631)\n\n* add missing `calc_element()`s\r\n\r\n* declare new theme elements\r\n\r\n* rewire inheritance\r\n\r\n* Use theme for `legend.ticks.length`\r\n\r\n* fix bug\r\n\r\n* adapt theme_test()\r\n\r\n* temp\r\n\r\n* add visual tests\r\n\r\n* fix panel spacing in vignette\r\n\r\n* use `margin()` in vignette\r\n\r\n* reformat news bullet"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b3d5071badfd3a2ef6f09e0c9dfce2d6fcc7f884/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ea6b799ced36994e7e50770d9d56bb2ad2709e15",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ea6b799ced36994e7e50770d9d56bb2ad2709e15",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/ea6b799ced36994e7e50770d9d56bb2ad2709e15"
+      }
+    ]
+  },
+  {
+    "sha": "ea6b799ced36994e7e50770d9d56bb2ad2709e15",
+    "node_id": "C_kwDNS-7aAChlYTZiNzk5Y2VkMzY5OTRlN2U1MDc3MGQ5ZDU2YmIyYWQyNzA5ZTE1",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T09:44:42Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T09:44:42Z"
+      },
+      "message": "Add debugger (#5723)",
+      "tree": {
+        "sha": "70028aefaf4dc245fcfcb1d53efdbdd475d15c2c",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/70028aefaf4dc245fcfcb1d53efdbdd475d15c2c"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/ea6b799ced36994e7e50770d9d56bb2ad2709e15",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSxuKCRC1aQ7uu5UhlAAASw0QAE+Ir+oNRaZTCiyyIfxLpJdw\nfySO2OSX3kE/cwQJMy/JslZJobAVa4j+wTaWONJTLKAFlPGCNDQAgA7tAxBIeslM\n8mGouhemkHP92a/z5HHlOR7Ps75xXawS3OZe7NxilT2jntTb6pWAF3CFIehyrQPA\nCoU51X13u81ODwwCzMrm0NuRMsNofNhp+ybjeTHIMIj7/9wZmYJWfHX0Ro2jm4Rf\njaoL13twZHUVhmWkknxzSuDb52GWd1+IVqM21Nesj/tdLzX9BepomqamEHnFfeR3\nFIXz5Hk2QlXEryrLJKctSgGqQbiIuR6pMVXfrjr/wrfKgXEUXdFAZlFCKfoHLvCF\nNd6ReMqKvI/DirbBzrLrhFiYSfDKqegUCli1rHtHiJhuBMwuGcTEJ53WuChcqd64\nTnmXQI29RbA0z5oyBK92GD1IGtlqD+25E8m8AdV1zWtEO5b+1VhClmGj/tFMoU/M\nxnFfB2ESKR8TfJK/2NApZgaaLf7I/f4qOylJnvQxti/0Q77i1YvNxaUtRzThoVe1\nAgfhBjC9m0qkXVnLmX3qgA4yrBxXpZGPqjadPMv8C5bomMcBf26tx84JU8pcSuzh\nWSgL/VJrBfoPe8snqetAdVhYnaNGn4Sa96IlqbUvZavHBPbLOkOg0lu2oZ0YTbF5\n5z4tjZ0JFwX7AQyR1C+I\n=n0q5\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 70028aefaf4dc245fcfcb1d53efdbdd475d15c2c\nparent 1654df1ec8b7aa1d2076b325486993f6b39fcde7\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716198282 +0200\ncommitter GitHub <noreply@github.com> 1716198282 +0200\n\nAdd debugger (#5723)\n\n"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ea6b799ced36994e7e50770d9d56bb2ad2709e15",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/ea6b799ced36994e7e50770d9d56bb2ad2709e15",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/ea6b799ced36994e7e50770d9d56bb2ad2709e15/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1654df1ec8b7aa1d2076b325486993f6b39fcde7",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1654df1ec8b7aa1d2076b325486993f6b39fcde7",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/1654df1ec8b7aa1d2076b325486993f6b39fcde7"
+      }
+    ]
+  },
+  {
+    "sha": "1654df1ec8b7aa1d2076b325486993f6b39fcde7",
+    "node_id": "C_kwDNS-7aACgxNjU0ZGYxZWM4YjdhYTFkMjA3NmIzMjU0ODY5OTNmNmIzOWZjZGU3",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T09:32:47Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T09:32:47Z"
+      },
+      "message": "`geom_raster()` fallback for non-Cartesian coords (#5627)\n\n* fallback mechanism\r\n\r\n* add tests\r\n\r\n* add news bullet\r\n\r\n* put bullet in appropriate place",
+      "tree": {
+        "sha": "1636301a2c1e8c7881caeb6f2f04801bbe62ae94",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/1636301a2c1e8c7881caeb6f2f04801bbe62ae94"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/1654df1ec8b7aa1d2076b325486993f6b39fcde7",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSxi/CRC1aQ7uu5UhlAAA7FMQAFcuGjBZyAViueTskycP6gxP\nwgF0Opwn5dk6b59uMCg74ujq8nq+6EHCfBrVh69SZyU9JAFNV7a68rbbVMUfFHEX\nRXDE1DGeYWacEDQjoRR0vmRE9JqtX9BkV8FJvx5SVQKR6V+XnVfrOOHoFQHqLIfW\nngkz3BAph/UdRqMV9aOwaHsQN5mt443HtDtwNB2nZsd07GynHkFweE1PSphhrZnP\n4TMxgh4GPCf/PA6GJTk3AzNNKKwOlhDKxf/9sdD0NVMV/YDrbphP4rEB4kjSCgVW\n+GMW07PYxloPKbKdqPCmTyJNC36EfNt2MU/Ljt5HawitrneRR6QUZOBiHvAybjDm\nDKZmZJqlIAK46b17wOs7pP2VbU8+9K/zT/zI0+R/F/Bl3gzyttNA5OlbE/7eFRR8\nR4+nj/RnAXXgw+6V37vmKHcu1VLYj4XEDr0kGjCM/qfOOTGoYL81ZY6CIaFdIt3P\nPq7GztuFxG6omwoWLhFr1qbSX85t7RbNGssFdM+vH2/J5ZWCF8zp/7YUUwQd5+e+\nD2F+WPZZexuF+fUmXRwMK+j+QZCeOp4r79erTAgLUTBP5eycbdMmGwlH4jPHSPmg\nQIXhxwAyNIAebJtyQTcZq22TL61xv5LjFOjB9MRTdU/uKCKXok0tDtiFgIgXnjue\ny+6JqXeXnvfc/LdZ4fWD\n=tdSB\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 1636301a2c1e8c7881caeb6f2f04801bbe62ae94\nparent 1df93c43a255aec68a0c0ca102ab5e98c9bbce51\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716197567 +0200\ncommitter GitHub <noreply@github.com> 1716197567 +0200\n\n`geom_raster()` fallback for non-Cartesian coords (#5627)\n\n* fallback mechanism\r\n\r\n* add tests\r\n\r\n* add news bullet\r\n\r\n* put bullet in appropriate place"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1654df1ec8b7aa1d2076b325486993f6b39fcde7",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/1654df1ec8b7aa1d2076b325486993f6b39fcde7",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1654df1ec8b7aa1d2076b325486993f6b39fcde7/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1df93c43a255aec68a0c0ca102ab5e98c9bbce51",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1df93c43a255aec68a0c0ca102ab5e98c9bbce51",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/1df93c43a255aec68a0c0ca102ab5e98c9bbce51"
+      }
+    ]
+  },
+  {
+    "sha": "1df93c43a255aec68a0c0ca102ab5e98c9bbce51",
+    "node_id": "C_kwDNS-7aACgxZGY5M2M0M2EyNTVhZWM2OGEwYzBjYTEwMmFiNWU5OGM5YmJjZTUx",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T09:21:28Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T09:21:28Z"
+      },
+      "message": "Weighted density (#5254)\n\n* Add weighted density computed variable\r\n\r\n* Add NEWS bullet\r\n\r\n* Fix typo",
+      "tree": {
+        "sha": "897edcbc1d04d513c20ed5d18970c7456241a9b9",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/897edcbc1d04d513c20ed5d18970c7456241a9b9"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/1df93c43a255aec68a0c0ca102ab5e98c9bbce51",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSxYYCRC1aQ7uu5UhlAAAKJUQAE1ize2P81bf1vQrOOcqQoqt\n929LQStnv0n1BLRw2EeQwbdtmIEWWnzXsYCwCBZ7/bG3QE0bQUt7GBOmvjIjBtR2\nzzukUB30cYjJ1vsXXL/v+I0jOBz6EAmdVULeaqQxsjJPeG503kBMkovuX6CYplck\n31bndYkQ0lbbxGDVc4eI0lGDaDVz43eyh/TVz46ty5vmz+Bn6mUDGDm1gtDkGLpi\nCV6nRdLdPZuy6Xzt//9imGvgtYHgrpzcKJ3mI2dap3bP9R/n+9VR8lGFe7sC1wz8\nsLerxhLys3LzFMscDjGsP/vsmiZ+xupw0QlnvhX2c7LS0u0wbVSNPyw1QPnvr4Rc\n395tign+PAhrPqEvBIjH9VH705SZko9bPcSzyM2AgaaShAN2opTdgnvyFJIbTGQJ\nXa1NHwKh/EMmj71a7+hlarq2TBypDPVMLBDkCEGnW8q6Ngt8Lu5Nh/Jza3ip6YLV\nDo8/zV3P7qpOj4R1PNHh0dFZ/kRXjFt2Z6sSy8aQjMJrrg4wXnnLk7MTcwoTo4OX\nVOmWIfd0tIXvMvLnH1VfefkZEj4+hX6+9ougwYi0Y2gTA5z7QAh4DpjylokIZayd\n1lZ4LpQwPYtQp9ZDASoB8a8+WwvXBOeh4o8zxbWYUCVI4PFP0MLRS+xFYuT2OFUw\nXaqsQ+qIHGu80kjD+0/j\n=sGwG\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 897edcbc1d04d513c20ed5d18970c7456241a9b9\nparent e94283380f078e2fd1cd0a9cb612796e24ffed9f\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716196888 +0200\ncommitter GitHub <noreply@github.com> 1716196888 +0200\n\nWeighted density (#5254)\n\n* Add weighted density computed variable\r\n\r\n* Add NEWS bullet\r\n\r\n* Fix typo"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1df93c43a255aec68a0c0ca102ab5e98c9bbce51",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/1df93c43a255aec68a0c0ca102ab5e98c9bbce51",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/1df93c43a255aec68a0c0ca102ab5e98c9bbce51/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e94283380f078e2fd1cd0a9cb612796e24ffed9f",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e94283380f078e2fd1cd0a9cb612796e24ffed9f",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/e94283380f078e2fd1cd0a9cb612796e24ffed9f"
+      }
+    ]
+  },
+  {
+    "sha": "e94283380f078e2fd1cd0a9cb612796e24ffed9f",
+    "node_id": "C_kwDNS-7aAChlOTQyODMzODBmMDc4ZTJmZDFjZDBhOWNiNjEyNzk2ZTI0ZmZlZDlm",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T09:09:25Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T09:09:25Z"
+      },
+      "message": "Weighted eCDF (#5119)\n\n* Add weighted ecdf\r\n\r\n* Update docs\r\n\r\n* Add tests for weighted ecdf\r\n\r\n* Add NEWS.md bullet\r\n\r\n* Fix typo\r\n\r\n* Don't fallback to `ecdf()`\r\n\r\n* Add clarification in docs\r\n\r\n* use wecdf\r\n\r\n* cleanup news",
+      "tree": {
+        "sha": "2459f848070c0145b23afc9a16859d3f23bfaeaa",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/2459f848070c0145b23afc9a16859d3f23bfaeaa"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/e94283380f078e2fd1cd0a9cb612796e24ffed9f",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSxNFCRC1aQ7uu5UhlAAA5pgQACKqhLrJLPIkYwMqXAJkpSQw\nBsZKkG89r+DCtOpLCKwjuT7e0D3Tlhbu2K2pzULjR08tOC2BUDyy6UJB605H96nk\nQOxhw1cQIAe6RGz0G/JaenCnVYlDItaE8vyFKTRFwZWZQAs+44bMHRA5wDVP2pOK\n5Z4UX94/rGZNg0YtEPtcNlnerYhaSLBMkI6E7Z65EL/L+SO+ldOsxPwqiWWzELGW\nr3ViNr2xdfb62q1Fme2S5iSG0L6MmVcI9Wpk0SWVrzvsDKoKRXAKf3fcbFnJnZVt\nS9ssuK0m+G70VvhHYIT0EBqwneWcYpyDo6oUU+BME9IFvTBzeDijC8mxh7L2gOK2\nVAYD6DfWvuh5teAh4R6/JqaJ9YkZ328Nu4xXLgi4zTBEEpcpwGuwg2jd7LYci9wx\n91znNRr4JKR84QywqkDofrDF4jE3JIVJZjDScfPuNKIGSA6QQJJX+R0HKy5Q4muf\n4N3uW67pYrNgA51mhgj+4N/P7AKdUdhJ6S1hkB0T0BuKf4l7hBTCguUGVXmgDXho\nVix3rvn0fhts1fjD3uBfTbOsNTxVXa6m0F6kV8h+QucFHpZn6N/2s2+mXXnrLEK5\nKJkgzzSj6xTDEEUzPXaTM2JIhgwhgqLcHxGm6S9ppZYKcsV43F7XnQMOqdBjLJ5C\nkSGDPoDjnt2djlbJkOOf\n=n0bs\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 2459f848070c0145b23afc9a16859d3f23bfaeaa\nparent 9202a47d0c26a7e3f22c735a7717a4a309d1e4e0\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716196165 +0200\ncommitter GitHub <noreply@github.com> 1716196165 +0200\n\nWeighted eCDF (#5119)\n\n* Add weighted ecdf\r\n\r\n* Update docs\r\n\r\n* Add tests for weighted ecdf\r\n\r\n* Add NEWS.md bullet\r\n\r\n* Fix typo\r\n\r\n* Don't fallback to `ecdf()`\r\n\r\n* Add clarification in docs\r\n\r\n* use wecdf\r\n\r\n* cleanup news"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e94283380f078e2fd1cd0a9cb612796e24ffed9f",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/e94283380f078e2fd1cd0a9cb612796e24ffed9f",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/e94283380f078e2fd1cd0a9cb612796e24ffed9f/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9202a47d0c26a7e3f22c735a7717a4a309d1e4e0",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/9202a47d0c26a7e3f22c735a7717a4a309d1e4e0",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/9202a47d0c26a7e3f22c735a7717a4a309d1e4e0"
+      }
+    ]
+  },
+  {
+    "sha": "9202a47d0c26a7e3f22c735a7717a4a309d1e4e0",
+    "node_id": "C_kwDNS-7aACg5MjAyYTQ3ZDBjMjZhN2UzZjIyYzczNWE3NzE3YTRhMzA5ZDFlNGUw",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T08:48:49Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T08:48:49Z"
+      },
+      "message": "Alt text label can be function (#5079)\n\n* Allow functions as `labs(alt = ...)` input\r\n\r\n* Alt functions are called with plot as input\r\n\r\n* Add test for alt text functions\r\n\r\n* Add NEWS bullet\r\n\r\n* Avoid recursion\r\n\r\n* deal with changes in {glue}",
+      "tree": {
+        "sha": "7cf1bfb09681b8dc8e7878a0b3ce3cd705a711c0",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/7cf1bfb09681b8dc8e7878a0b3ce3cd705a711c0"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/9202a47d0c26a7e3f22c735a7717a4a309d1e4e0",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSw5xCRC1aQ7uu5UhlAAAF5UQADijJ+Ud9L4vAYBNWwKddk2W\nFh8vZBULDIl9lZRDlBYXvV+HwN3Yiu765BfI3FRNPLKjbKrcw7yAeFn/L5ZYIyrr\nZ/wJUqx6Q9V9fTUoc6CJsr6L1Nw+ByqVIqFpGSaE1ZeO7m5OtJDAohZ3P4+DsXR+\nsgokH93ogRgFhL0YWDRgy9lLczZrGV51oAsBOeDY5Z5ig50xZbqA2qQo4q3hkJQ8\nI/OLZZjt7ONkwEXwSIED2LMFVJWYS/2RHGwRyfqh+4WogHUDFRJ4QDEmODehDVRp\n9MLg5PVE0OxoV6LJqATbxGdguLSh1MtUO6XqR0OUGBnGOXkz58ADhKQUhPsnTQVK\nfC26DEo1Vt5nj/uplf6KYGo30zAz8Y6OErtb5ROcm1cLIY0waJG4n9bi8ttrKr4n\nKTLEbMf8piqSvzIX/1ST5/szKKgx4G14ZlbeAERlNJNVN0YGQ5NbBE055Z9xPlFw\n3oIUoESZ4TC3LV1yhXPAQ2dh8MrcBjpGoL0Z94UlQX+8bY+jbr9Q+/FiYJTcORhv\nTDeNfVjZYQDu6pVO2IdOegG7AbX0CrxuGpK/FgiHcGADhYsdl3kP9BWK4omA6EON\nh1U12kRt9BMt5q5KAAedAKaqyHbBASXluj/ppC0A2V6lw08+fn5fDaSqMyeTywEx\nm79md7SWT94fnxwSncWt\n=yHoM\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 7cf1bfb09681b8dc8e7878a0b3ce3cd705a711c0\nparent b74570c063c455da7c08be0f0713071a2365f541\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716194929 +0200\ncommitter GitHub <noreply@github.com> 1716194929 +0200\n\nAlt text label can be function (#5079)\n\n* Allow functions as `labs(alt = ...)` input\r\n\r\n* Alt functions are called with plot as input\r\n\r\n* Add test for alt text functions\r\n\r\n* Add NEWS bullet\r\n\r\n* Avoid recursion\r\n\r\n* deal with changes in {glue}"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/9202a47d0c26a7e3f22c735a7717a4a309d1e4e0",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/9202a47d0c26a7e3f22c735a7717a4a309d1e4e0",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/9202a47d0c26a7e3f22c735a7717a4a309d1e4e0/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b74570c063c455da7c08be0f0713071a2365f541",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b74570c063c455da7c08be0f0713071a2365f541",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/b74570c063c455da7c08be0f0713071a2365f541"
+      }
+    ]
+  },
+  {
+    "sha": "b74570c063c455da7c08be0f0713071a2365f541",
+    "node_id": "C_kwDNS-7aAChiNzQ1NzBjMDYzYzQ1NWRhN2MwOGJlMGYwNzEzMDcxYTIzNjVmNTQx",
+    "commit": {
+      "author": {
+        "name": "Teun van den Brand",
+        "email": "49372158+teunbrand@users.noreply.github.com",
+        "date": "2024-05-20T07:43:54Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2024-05-20T07:43:54Z"
+      },
+      "message": "`coord_sf()` scale function breaks (#5442)\n\n* Helper function for breaks\r\n\r\n* Use new breaks\r\n\r\n* NULL breaks discard gridlines\r\n\r\n* Fix typo\r\n\r\n* Add tests\r\n\r\n* fallback for problematic crs\r\n\r\n* Add news bullet\r\n\r\n* Fix `breaks = NULL` case\r\n\r\n* replace removed `len0_null()`\r\n\r\n* remove duplicated news entry",
+      "tree": {
+        "sha": "e5723c4c7be3abb1cba7039c8c92e9cc5370f1c6",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/git/trees/e5723c4c7be3abb1cba7039c8c92e9cc5370f1c6"
+      },
+      "url": "https://api.github.com/repos/tidyverse/ggplot2/git/commits/b74570c063c455da7c08be0f0713071a2365f541",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmSv86CRC1aQ7uu5UhlAAAFBAQAIZBUvAhhzw0GeL1QwZHFEQM\njEu/FRy1yi/VxMzhcGjOxeEZ0OVmVOrKPosAaV0w6DmA3nkpNp4lSzFPTTCAqp1P\nUr5aNxzbcaFbNJGk0WJDZ4rWlzXWB3Tp0GFxISk4IyKP+zdBNDVv42ZjDTlB0GSF\nO2vBi80hcS5xK+C3mghwoghNZBQJibxac03mzQMFfRlTVrLaEtQHk6asTgjgGheP\nTiQBPWPuzWWRbOiJrUrxhGOnNpnf558sOOtDRedlsc88IpDBgNrJYjEEXysO+8Yr\n85gXGNduUWU6egKXJezdkBr6P8ngQ4DzgkGrPjd6Q1iRxdfIMY1G15m1gG8rtT9j\ndB8tc6H9RtgdFuK3ji4F3S7zaR2bwV38PXO1xux4lCSeeuT9oEmPZ6AvgL6WWIZQ\n0kbKu6HBZJh/3vTtATBo2KJHfDOF727h7jQGtFXpnjxCfVQ7ZppSYsuXZPPSYXRw\n/Gvmpg06g0u4OVBV7tGwJmgbdXGMNcYj0rdp2CRUBOWeNLX4LOP9+QbaxRkIUhB4\nHta5p3MUfDe3kaN4xzTAfVon4Y2Egq5+lZTocQ7n/2AKB0VZ03vDfmbWD12dUBi4\nrD2lCgFMdvTxchfdoMdPGbXkahM9zMUB4i1wqqs5LAEOwiiUeC9w+ZxsS0QioGFW\nXBUY+o9fB2A8RHQjM7XB\n=da9N\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree e5723c4c7be3abb1cba7039c8c92e9cc5370f1c6\nparent 7f6ca679e8aff8b1ff39e42602b8005d177318d3\nauthor Teun van den Brand <49372158+teunbrand@users.noreply.github.com> 1716191034 +0200\ncommitter GitHub <noreply@github.com> 1716191034 +0200\n\n`coord_sf()` scale function breaks (#5442)\n\n* Helper function for breaks\r\n\r\n* Use new breaks\r\n\r\n* NULL breaks discard gridlines\r\n\r\n* Fix typo\r\n\r\n* Add tests\r\n\r\n* fallback for problematic crs\r\n\r\n* Add news bullet\r\n\r\n* Fix `breaks = NULL` case\r\n\r\n* replace removed `len0_null()`\r\n\r\n* remove duplicated news entry"
+      }
+    },
+    "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b74570c063c455da7c08be0f0713071a2365f541",
+    "html_url": "https://github.com/tidyverse/ggplot2/commit/b74570c063c455da7c08be0f0713071a2365f541",
+    "comments_url": "https://api.github.com/repos/tidyverse/ggplot2/commits/b74570c063c455da7c08be0f0713071a2365f541/comments",
+    "author": {
+      "login": "teunbrand",
+      "id": 49372158,
+      "node_id": "MDQ6VXNlcjQ5MzcyMTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49372158?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teunbrand",
+      "html_url": "https://github.com/teunbrand",
+      "followers_url": "https://api.github.com/users/teunbrand/followers",
+      "following_url": "https://api.github.com/users/teunbrand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teunbrand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teunbrand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teunbrand/subscriptions",
+      "organizations_url": "https://api.github.com/users/teunbrand/orgs",
+      "repos_url": "https://api.github.com/users/teunbrand/repos",
+      "events_url": "https://api.github.com/users/teunbrand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teunbrand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7f6ca679e8aff8b1ff39e42602b8005d177318d3",
+        "url": "https://api.github.com/repos/tidyverse/ggplot2/commits/7f6ca679e8aff8b1ff39e42602b8005d177318d3",
+        "html_url": "https://github.com/tidyverse/ggplot2/commit/7f6ca679e8aff8b1ff39e42602b8005d177318d3"
+      }
+    ]
+  }
+]

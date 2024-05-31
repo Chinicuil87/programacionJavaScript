@@ -1,5 +1,9 @@
 # Operaciones
 
+Ejercicio de YouTube
+
+Codigo 369
+
 ## Lenguaje.
 
 | HTML || JavaScript |

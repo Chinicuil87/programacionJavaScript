@@ -1,4 +1,4 @@
-# Datos json
+# Datos Json
 
 Ejercicio de YouTube
 
@@ -13,6 +13,10 @@ Codigo 369
 > Funcion asincrona
 
 > Consumo de API
+
+> Fetch
+
+> Catch
 
 ## Resultados:
 
